@@ -1,0 +1,655 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="..\packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.0\build\net46\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.props" Condition="Exists('..\packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.0\build\net46\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.props')" />
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>
+    </ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{C248E31F-6BE3-4DCB-9774-69DEC3686F29}</ProjectGuid>
+    <ProjectTypeGuids>{349c5851-65df-11da-9384-00065b846f21};{fae04ec0-301f-11d3-bf4b-00c04f79efbc}</ProjectTypeGuids>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>TravelMVC</RootNamespace>
+    <AssemblyName>TravelMVC</AssemblyName>
+    <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
+    <MvcBuildViews>false</MvcBuildViews>
+    <UseIISExpress>true</UseIISExpress>
+    <Use64BitIISExpress />
+    <IISExpressSSLPort />
+    <IISExpressAnonymousAuthentication />
+    <IISExpressWindowsAuthentication />
+    <IISExpressUseClassicPipelineMode />
+    <UseGlobalApplicationHostFile />
+    <NuGetPackageImportStamp>
+    </NuGetPackageImportStamp>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Web.DynamicData" />
+    <Reference Include="System.Web.Entity" />
+    <Reference Include="System.Web.ApplicationServices" />
+    <Reference Include="System.ComponentModel.DataAnnotations" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Web.Extensions" />
+    <Reference Include="System.Web.Abstractions" />
+    <Reference Include="System.Web.Routing" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.EnterpriseServices" />
+    <Reference Include="Microsoft.Web.Infrastructure, Version=1.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <Private>True</Private>
+      <HintPath>..\packages\Microsoft.Web.Infrastructure.1.0.0.0\lib\net40\Microsoft.Web.Infrastructure.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Net.Http">
+    </Reference>
+    <Reference Include="System.Net.Http.WebRequest">
+    </Reference>
+    <Reference Include="System.Web.Helpers, Version=3.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <Private>True</Private>
+      <HintPath>..\packages\Microsoft.AspNet.WebPages.3.2.4\lib\net45\System.Web.Helpers.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Web.Mvc, Version=5.2.4.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <Private>True</Private>
+      <HintPath>..\packages\Microsoft.AspNet.Mvc.5.2.4\lib\net45\System.Web.Mvc.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Web.Optimization">
+      <HintPath>..\packages\Microsoft.AspNet.Web.Optimization.1.1.3\lib\net40\System.Web.Optimization.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Web.Razor, Version=3.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <Private>True</Private>
+      <HintPath>..\packages\Microsoft.AspNet.Razor.3.2.4\lib\net45\System.Web.Razor.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Web.WebPages, Version=3.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <Private>True</Private>
+      <HintPath>..\packages\Microsoft.AspNet.WebPages.3.2.4\lib\net45\System.Web.WebPages.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Web.WebPages.Deployment, Version=3.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <Private>True</Private>
+      <HintPath>..\packages\Microsoft.AspNet.WebPages.3.2.4\lib\net45\System.Web.WebPages.Deployment.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Web.WebPages.Razor, Version=3.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <Private>True</Private>
+      <HintPath>..\packages\Microsoft.AspNet.WebPages.3.2.4\lib\net45\System.Web.WebPages.Razor.dll</HintPath>
+    </Reference>
+    <Reference Include="Newtonsoft.Json">
+      <HintPath>..\packages\Newtonsoft.Json.11.0.1\lib\net45\Newtonsoft.Json.dll</HintPath>
+    </Reference>
+    <Reference Include="WebGrease">
+      <Private>True</Private>
+      <HintPath>..\packages\WebGrease.1.6.0\lib\WebGrease.dll</HintPath>
+    </Reference>
+    <Reference Include="Antlr3.Runtime">
+      <Private>True</Private>
+      <HintPath>..\packages\Antlr.3.5.0.2\lib\Antlr3.Runtime.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Reference Include="System.Diagnostics.DiagnosticSource">
+      <HintPath>..\packages\System.Diagnostics.DiagnosticSource.4.4.1\lib\net46\System.Diagnostics.DiagnosticSource.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.AspNet.TelemetryCorrelation">
+      <HintPath>..\packages\Microsoft.AspNet.TelemetryCorrelation.1.0.0\lib\net45\Microsoft.AspNet.TelemetryCorrelation.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.ApplicationInsights">
+      <HintPath>..\packages\Microsoft.ApplicationInsights.2.5.1\lib\net46\Microsoft.ApplicationInsights.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.AI.Agent.Intercept">
+      <HintPath>..\packages\Microsoft.ApplicationInsights.Agent.Intercept.2.4.0\lib\net45\Microsoft.AI.Agent.Intercept.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.AI.DependencyCollector">
+      <HintPath>..\packages\Microsoft.ApplicationInsights.DependencyCollector.2.5.1\lib\net45\Microsoft.AI.DependencyCollector.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.AI.PerfCounterCollector">
+      <HintPath>..\packages\Microsoft.ApplicationInsights.PerfCounterCollector.2.5.1\lib\net45\Microsoft.AI.PerfCounterCollector.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.AI.ServerTelemetryChannel">
+      <HintPath>..\packages\Microsoft.ApplicationInsights.WindowsServer.TelemetryChannel.2.5.1\lib\net45\Microsoft.AI.ServerTelemetryChannel.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.AI.WindowsServer">
+      <HintPath>..\packages\Microsoft.ApplicationInsights.WindowsServer.2.5.1\lib\net45\Microsoft.AI.WindowsServer.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.AI.Web">
+      <HintPath>..\packages\Microsoft.ApplicationInsights.Web.2.5.1\lib\net45\Microsoft.AI.Web.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.CodeDom.Providers.DotNetCompilerPlatform">
+      <HintPath>..\packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.0\lib\net45\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="App_Start\BundleConfig.cs" />
+    <Compile Include="App_Start\FilterConfig.cs" />
+    <Compile Include="App_Start\RouteConfig.cs" />
+    <Compile Include="Controllers\HomeController.cs" />
+    <Compile Include="Global.asax.cs">
+      <DependentUpon>Global.asax</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Content\bootstrap-theme.css" />
+    <Content Include="Content\bootstrap-theme.min.css" />
+    <Content Include="Content\bootstrap.css" />
+    <Content Include="Content\bootstrap.min.css" />
+    <Content Include="favicon.ico" />
+    <Content Include="fonts\glyphicons-halflings-regular.svg" />
+    <Content Include="Global.asax" />
+    <Content Include="Content\Site.css" />
+    <Content Include="Scripts\bootstrap.js" />
+    <Content Include="Scripts\bootstrap.min.js" />
+    <Content Include="ApplicationInsights.config">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <None Include="Properties\PublishProfiles\FolderProfile.pubxml" />
+    <None Include="Scripts\jquery-3.3.1.intellisense.js" />
+    <Content Include="Scripts\jquery-3.3.1.js" />
+    <Content Include="Scripts\jquery-3.3.1.min.js" />
+    <Content Include="Scripts\jquery-3.3.1.slim.js" />
+    <Content Include="Scripts\jquery-3.3.1.slim.min.js" />
+    <None Include="Scripts\jquery.validate-vsdoc.js" />
+    <Content Include="Scripts\jquery.validate.js" />
+    <Content Include="Scripts\jquery.validate.min.js" />
+    <Content Include="Scripts\jquery.validate.unobtrusive.js" />
+    <Content Include="Scripts\jquery.validate.unobtrusive.min.js" />
+    <Content Include="Scripts\modernizr-2.8.3.js" />
+    <Content Include="TemplateFolders\css\style-core.css" />
+    <Content Include="TemplateFolders\css\tourmaster-style-custom.css" />
+    <Content Include="TemplateFolders\css\traveltour-style-custom.css" />
+    <Content Include="TemplateFolders\images\404-background.jpg" />
+    <Content Include="TemplateFolders\images\blog-title-gradient.png" />
+    <Content Include="TemplateFolders\images\blog-title-top-gradient.png" />
+    <Content Include="TemplateFolders\images\logo.png" />
+    <Content Include="TemplateFolders\images\page-title-background.jpg" />
+    <Content Include="TemplateFolders\images\preload.gif" />
+    <Content Include="TemplateFolders\js\isotope.js" />
+    <Content Include="TemplateFolders\js\jquery\jquery-migrate.min.js" />
+    <Content Include="TemplateFolders\js\jquery\jquery.js" />
+    <Content Include="TemplateFolders\js\jquery\ui\core.min.js" />
+    <Content Include="TemplateFolders\js\jquery\ui\datepicker.min.js" />
+    <Content Include="TemplateFolders\js\jquery\ui\effect.min.js" />
+    <Content Include="TemplateFolders\js\plugins.js" />
+    <Content Include="TemplateFolders\page\2\index.html" />
+    <Content Include="TemplateFolders\page\3\index.html" />
+    <Content Include="TemplateFolders\page\4\index.html" />
+    <Content Include="TemplateFolders\plugins\goodlayers-core\include\css\page-builder.css" />
+    <Content Include="TemplateFolders\plugins\goodlayers-core\include\images\blog-style\blog-item-gradient.png" />
+    <Content Include="TemplateFolders\plugins\goodlayers-core\include\images\blog-style\blog-item-gradient2.png" />
+    <Content Include="TemplateFolders\plugins\goodlayers-core\include\images\gallery\gallery-shadow.png" />
+    <Content Include="TemplateFolders\plugins\goodlayers-core\include\images\portfolio\now-loading.gif" />
+    <Content Include="TemplateFolders\plugins\goodlayers-core\include\images\post-slider\gradient.png" />
+    <Content Include="TemplateFolders\plugins\goodlayers-core\include\js\page-builder.js" />
+    <Content Include="TemplateFolders\plugins\goodlayers-core\plugins\combine\arrow-prev-icon-64.html" />
+    <Content Include="TemplateFolders\plugins\goodlayers-core\plugins\combine\elegant\ElegantIcons.svg" />
+    <Content Include="TemplateFolders\plugins\goodlayers-core\plugins\combine\fontawesome\fontawesome-webfont3e6e3e6e.svg" />
+    <Content Include="TemplateFolders\plugins\goodlayers-core\plugins\combine\script.js" />
+    <Content Include="TemplateFolders\plugins\goodlayers-core\plugins\combine\skin-ilightbox\closedhand.cur" />
+    <Content Include="TemplateFolders\plugins\goodlayers-core\plugins\combine\skin-ilightbox\dark-skin\alert.png" />
+    <Content Include="TemplateFolders\plugins\goodlayers-core\plugins\combine\skin-ilightbox\dark-skin\arrow-next-icon-64.png" />
+    <Content Include="TemplateFolders\plugins\goodlayers-core\plugins\combine\skin-ilightbox\dark-skin\arrow-next-icon-ie.png" />
+    <Content Include="TemplateFolders\plugins\goodlayers-core\plugins\combine\skin-ilightbox\dark-skin\arrow-next-vertical-icon-64.png" />
+    <Content Include="TemplateFolders\plugins\goodlayers-core\plugins\combine\skin-ilightbox\dark-skin\arrow-prev-icon-64.png" />
+    <Content Include="TemplateFolders\plugins\goodlayers-core\plugins\combine\skin-ilightbox\dark-skin\arrow-prev-icon-ie.png" />
+    <Content Include="TemplateFolders\plugins\goodlayers-core\plugins\combine\skin-ilightbox\dark-skin\arrow-prev-vertical-icon-64.png" />
+    <Content Include="TemplateFolders\plugins\goodlayers-core\plugins\combine\skin-ilightbox\dark-skin\buttons.png" />
+    <Content Include="TemplateFolders\plugins\goodlayers-core\plugins\combine\skin-ilightbox\dark-skin\caption-bg.png" />
+    <Content Include="TemplateFolders\plugins\goodlayers-core\plugins\combine\skin-ilightbox\dark-skin\fullscreen-icon-64.png" />
+    <Content Include="TemplateFolders\plugins\goodlayers-core\plugins\combine\skin-ilightbox\dark-skin\fullscreen-icon-ie.png" />
+    <Content Include="TemplateFolders\plugins\goodlayers-core\plugins\combine\skin-ilightbox\dark-skin\pause-icon-64.png" />
+    <Content Include="TemplateFolders\plugins\goodlayers-core\plugins\combine\skin-ilightbox\dark-skin\pause-icon-ie.png" />
+    <Content Include="TemplateFolders\plugins\goodlayers-core\plugins\combine\skin-ilightbox\dark-skin\play-icon-64.png" />
+    <Content Include="TemplateFolders\plugins\goodlayers-core\plugins\combine\skin-ilightbox\dark-skin\play-icon-ie.png" />
+    <Content Include="TemplateFolders\plugins\goodlayers-core\plugins\combine\skin-ilightbox\dark-skin\preloader.gif" />
+    <Content Include="TemplateFolders\plugins\goodlayers-core\plugins\combine\skin-ilightbox\dark-skin\thumb-overlay-play.png" />
+    <Content Include="TemplateFolders\plugins\goodlayers-core\plugins\combine\skin-ilightbox\dark-skin\x-mark-icon-64.png" />
+    <Content Include="TemplateFolders\plugins\goodlayers-core\plugins\combine\skin-ilightbox\dark-skin\x-mark-icon-ie.png" />
+    <Content Include="TemplateFolders\plugins\goodlayers-core\plugins\combine\skin-ilightbox\social_icons\delicious_16.png" />
+    <Content Include="TemplateFolders\plugins\goodlayers-core\plugins\combine\skin-ilightbox\social_icons\digg_16.png" />
+    <Content Include="TemplateFolders\plugins\goodlayers-core\plugins\combine\skin-ilightbox\social_icons\facebook_16.png" />
+    <Content Include="TemplateFolders\plugins\goodlayers-core\plugins\combine\skin-ilightbox\social_icons\google_plus_16.png" />
+    <Content Include="TemplateFolders\plugins\goodlayers-core\plugins\combine\skin-ilightbox\social_icons\reddit_16.png" />
+    <Content Include="TemplateFolders\plugins\goodlayers-core\plugins\combine\skin-ilightbox\social_icons\twitter_16.png" />
+    <Content Include="TemplateFolders\plugins\goodlayers-core\plugins\combine\style.css" />
+    <Content Include="TemplateFolders\plugins\google-map-plugin\assets\js\frontend.js" />
+    <Content Include="TemplateFolders\plugins\google-map-plugin\assets\js\mapsd41d.js" />
+    <Content Include="TemplateFolders\plugins\quform\js\plugins.js" />
+    <Content Include="TemplateFolders\plugins\quform\js\scripts.js" />
+    <Content Include="TemplateFolders\plugins\revslider\public\assets\assets\coloredbg.png" />
+    <Content Include="TemplateFolders\plugins\revslider\public\assets\assets\gridtile.png" />
+    <Content Include="TemplateFolders\plugins\revslider\public\assets\assets\gridtile_3x3.png" />
+    <Content Include="TemplateFolders\plugins\revslider\public\assets\assets\gridtile_3x3_white.png" />
+    <Content Include="TemplateFolders\plugins\revslider\public\assets\assets\gridtile_white.png" />
+    <Content Include="TemplateFolders\plugins\revslider\public\assets\assets\loader.gif" />
+    <Content Include="TemplateFolders\plugins\revslider\public\assets\css\closedhand.html" />
+    <Content Include="TemplateFolders\plugins\revslider\public\assets\css\openhand.html" />
+    <Content Include="TemplateFolders\plugins\revslider\public\assets\css\settings.css" />
+    <Content Include="TemplateFolders\plugins\revslider\public\assets\fonts\revicons\revicons.svg" />
+    <Content Include="TemplateFolders\plugins\revslider\public\assets\js\extensions\revolution.extension.actions.min.js" />
+    <Content Include="TemplateFolders\plugins\revslider\public\assets\js\extensions\revolution.extension.kenburn.min.js" />
+    <Content Include="TemplateFolders\plugins\revslider\public\assets\js\extensions\revolution.extension.layeranimation.min.js" />
+    <Content Include="TemplateFolders\plugins\revslider\public\assets\js\extensions\revolution.extension.navigation.min.js" />
+    <Content Include="TemplateFolders\plugins\revslider\public\assets\js\extensions\revolution.extension.parallax.min.js" />
+    <Content Include="TemplateFolders\plugins\revslider\public\assets\js\extensions\revolution.extension.slideanims.min.js" />
+    <Content Include="TemplateFolders\plugins\revslider\public\assets\js\extensions\revolution.extension.video.min.js" />
+    <Content Include="TemplateFolders\plugins\revslider\public\assets\js\jquery.themepunch.revolution.min.js" />
+    <Content Include="TemplateFolders\plugins\revslider\public\assets\js\jquery.themepunch.tools.min.js" />
+    <Content Include="TemplateFolders\plugins\tourmaster\images\button-loading.svg" />
+    <Content Include="TemplateFolders\plugins\tourmaster\images\payment-step-gradient.png" />
+    <Content Include="TemplateFolders\plugins\tourmaster\images\payment-step-separator.png" />
+    <Content Include="TemplateFolders\plugins\tourmaster\images\ribbon-corner-shadow.png" />
+    <Content Include="TemplateFolders\plugins\tourmaster\images\single-tour-gradient.png" />
+    <Content Include="TemplateFolders\plugins\tourmaster\images\single-tour-top-gradient.png" />
+    <Content Include="TemplateFolders\plugins\tourmaster\images\tour-category-item-gradient.png" />
+    <Content Include="TemplateFolders\plugins\tourmaster\plugins\elegant-font\fonts\ElegantIcons.svg" />
+    <Content Include="TemplateFolders\plugins\tourmaster\plugins\elegant-font\style.css" />
+    <Content Include="TemplateFolders\plugins\tourmaster\plugins\flaticon\Flaticon.svg" />
+    <Content Include="TemplateFolders\plugins\tourmaster\tourmaster.css" />
+    <Content Include="TemplateFolders\plugins\tourmaster\tourmaster.js" />
+    <Content Include="TemplateFolders\upload\above-adventure-aerial-air.jpg" />
+    <Content Include="TemplateFolders\upload\award-1.png" />
+    <Content Include="TemplateFolders\upload\award-2.png" />
+    <Content Include="TemplateFolders\upload\banner-1.png" />
+    <Content Include="TemplateFolders\upload\banner-2.png" />
+    <Content Include="TemplateFolders\upload\banner-3.png" />
+    <Content Include="TemplateFolders\upload\banner-4.png" />
+    <Content Include="TemplateFolders\upload\banner-5.png" />
+    <Content Include="TemplateFolders\upload\c4ffc7a48d6a02dac31975c893fa7ddb.jpg" />
+    <Content Include="TemplateFolders\upload\city-landmark-lights-night-700x430.jpg" />
+    <Content Include="TemplateFolders\upload\city-sunny-people-street-700x660.jpg" />
+    <Content Include="TemplateFolders\upload\city-sunny-people-street.jpg" />
+    <Content Include="TemplateFolders\upload\column-bg.jpg" />
+    <Content Include="TemplateFolders\upload\Fotolia_16069076_Subscription_Monthly_XXL-600x600.jpg" />
+    <Content Include="TemplateFolders\upload\Fotolia_16069076_Subscription_Monthly_XXL-800x960.jpg" />
+    <Content Include="TemplateFolders\upload\icon-1.png" />
+    <Content Include="TemplateFolders\upload\icon-10.png" />
+    <Content Include="TemplateFolders\upload\icon-11.png" />
+    <Content Include="TemplateFolders\upload\icon-12.png" />
+    <Content Include="TemplateFolders\upload\icon-13.png" />
+    <Content Include="TemplateFolders\upload\icon-14.png" />
+    <Content Include="TemplateFolders\upload\icon-15.png" />
+    <Content Include="TemplateFolders\upload\icon-2.png" />
+    <Content Include="TemplateFolders\upload\icon-3.png" />
+    <Content Include="TemplateFolders\upload\icon-4.png" />
+    <Content Include="TemplateFolders\upload\icon-5.png" />
+    <Content Include="TemplateFolders\upload\icon-6.png" />
+    <Content Include="TemplateFolders\upload\icon-7.png" />
+    <Content Include="TemplateFolders\upload\italian-landscape-mountains-nature-1500x1000.jpg" />
+    <Content Include="TemplateFolders\upload\italian-landscape-mountains-nature-150x150.jpg" />
+    <Content Include="TemplateFolders\upload\italian-landscape-mountains-nature-600x800.jpg" />
+    <Content Include="TemplateFolders\upload\italian-landscape-mountains-nature-700x450.jpg" />
+    <Content Include="TemplateFolders\upload\italian-landscape-mountains-nature-700x500.jpg" />
+    <Content Include="TemplateFolders\upload\italian-landscape-mountains-nature-700x660.jpg" />
+    <Content Include="TemplateFolders\upload\italian-landscape-mountains-nature-900x500.jpg" />
+    <Content Include="TemplateFolders\upload\italian-landscape-mountains-nature.jpg" />
+    <Content Include="TemplateFolders\upload\personnel-1-150x150.jpg" />
+    <Content Include="TemplateFolders\upload\personnel-1-550x500.jpg" />
+    <Content Include="TemplateFolders\upload\personnel-2-150x150.jpg" />
+    <Content Include="TemplateFolders\upload\personnel-2-550x500.jpg" />
+    <Content Include="TemplateFolders\upload\personnel-3-150x150.jpg" />
+    <Content Include="TemplateFolders\upload\personnel-3-550x500.jpg" />
+    <Content Include="TemplateFolders\upload\personnel-4-150x150.jpg" />
+    <Content Include="TemplateFolders\upload\personnel-4-550x500.jpg" />
+    <Content Include="TemplateFolders\upload\personnel-5-150x150.jpg" />
+    <Content Include="TemplateFolders\upload\personnel-5-550x500.jpg" />
+    <Content Include="TemplateFolders\upload\personnel-6-150x150.jpg" />
+    <Content Include="TemplateFolders\upload\personnel-6-550x500.jpg" />
+    <Content Include="TemplateFolders\upload\pexels-photo-1100x490.jpg" />
+    <Content Include="TemplateFolders\upload\pexels-photo-1280x580.jpg" />
+    <Content Include="TemplateFolders\upload\pexels-photo-1500x1000.jpg" />
+    <Content Include="TemplateFolders\upload\pexels-photo-164276-600x800.jpg" />
+    <Content Include="TemplateFolders\upload\pexels-photo-164276-700x660.jpg" />
+    <Content Include="TemplateFolders\upload\pexels-photo-172221-1024x683.jpg" />
+    <Content Include="TemplateFolders\upload\pexels-photo-172221-700x430.jpg" />
+    <Content Include="TemplateFolders\upload\pexels-photo-176400-600x800.jpg" />
+    <Content Include="TemplateFolders\upload\pexels-photo-176400-700x430.jpg" />
+    <Content Include="TemplateFolders\upload\pexels-photo-176400-700x660.jpg" />
+    <Content Include="TemplateFolders\upload\pexels-photo-300x200.jpg" />
+    <Content Include="TemplateFolders\upload\pexels-photo-47426.jpg" />
+    <Content Include="TemplateFolders\upload\pexels-photo-67386-700x500.jpg" />
+    <Content Include="TemplateFolders\upload\pexels-photo-67386-700x660.jpg" />
+    <Content Include="TemplateFolders\upload\pexels-photo-67386.jpg" />
+    <Content Include="TemplateFolders\upload\pexels-photo-700x430.jpg" />
+    <Content Include="TemplateFolders\upload\pexels-photo-copy-2-1500x1000.jpg" />
+    <Content Include="TemplateFolders\upload\pexels-photo-copy-2.jpg" />
+    <Content Include="TemplateFolders\upload\pexels-photo.jpg" />
+    <Content Include="TemplateFolders\upload\photo-1428931996691-a5108d4cdbf5-150x150.jpg" />
+    <Content Include="TemplateFolders\upload\photo-1437651025703-2858c944e3eb-150x150.jpg" />
+    <Content Include="TemplateFolders\upload\photo-1437651025703-2858c944e3eb-700x660.jpg" />
+    <Content Include="TemplateFolders\upload\photo-1437651025703-2858c944e3eb.jpg" />
+    <Content Include="TemplateFolders\upload\photo-1439853949127-fa647821eba0.jpg" />
+    <Content Include="TemplateFolders\upload\photo-1441155472722-d17942a2b76a-150x150.jpg" />
+    <Content Include="TemplateFolders\upload\photo-1441155472722-d17942a2b76a-600x800.jpg" />
+    <Content Include="TemplateFolders\upload\photo-1441155472722-d17942a2b76a-700x450.jpg" />
+    <Content Include="TemplateFolders\upload\photo-1441155472722-d17942a2b76a-700x500.jpg" />
+    <Content Include="TemplateFolders\upload\photo-1441155472722-d17942a2b76a-700x660.jpg" />
+    <Content Include="TemplateFolders\upload\photo-1441155472722-d17942a2b76a-900x500.jpg" />
+    <Content Include="TemplateFolders\upload\photo-1441155472722-d17942a2b76a.jpg" />
+    <Content Include="TemplateFolders\upload\photo-1441716844725-09cedc13a4e7-150x150.jpg" />
+    <Content Include="TemplateFolders\upload\photo-1441716844725-09cedc13a4e7-700x450.jpg" />
+    <Content Include="TemplateFolders\upload\photo-1441716844725-09cedc13a4e7-700x500.jpg" />
+    <Content Include="TemplateFolders\upload\photo-1441716844725-09cedc13a4e7-700x660.jpg" />
+    <Content Include="TemplateFolders\upload\photo-1441716844725-09cedc13a4e7-900x500.jpg" />
+    <Content Include="TemplateFolders\upload\photo-1441716844725-09cedc13a4e7.jpg" />
+    <Content Include="TemplateFolders\upload\photo-1442589031151-61d5645469d7-1550x700.jpg" />
+    <Content Include="TemplateFolders\upload\photo-1442589031151-61d5645469d7-700x450.jpg" />
+    <Content Include="TemplateFolders\upload\photo-1442589031151-61d5645469d7.jpg" />
+    <Content Include="TemplateFolders\upload\photo-1443890484047-5eaa67d1d630-700x450.jpg" />
+    <Content Include="TemplateFolders\upload\photo-1443890484047-5eaa67d1d630-700x500.jpg" />
+    <Content Include="TemplateFolders\upload\photo-1443890484047-5eaa67d1d630.jpg" />
+    <Content Include="TemplateFolders\upload\photo-1443890923422-7819ed4101c0-150x150.jpg" />
+    <Content Include="TemplateFolders\upload\photo-1443890923422-7819ed4101c0-1550x700.jpg" />
+    <Content Include="TemplateFolders\upload\photo-1443890923422-7819ed4101c0-700x450.jpg" />
+    <Content Include="TemplateFolders\upload\photo-1443890923422-7819ed4101c0-700x500.jpg" />
+    <Content Include="TemplateFolders\upload\photo-1443890923422-7819ed4101c0-700x660.jpg" />
+    <Content Include="TemplateFolders\upload\photo-1443890923422-7819ed4101c0-900x500.jpg" />
+    <Content Include="TemplateFolders\upload\photo-1443890923422-7819ed4101c0.jpg" />
+    <Content Include="TemplateFolders\upload\photo-1447876394678-42a7efa1b6db-700x660.jpg" />
+    <Content Include="TemplateFolders\upload\photo-1447876394678-42a7efa1b6db.jpg" />
+    <Content Include="TemplateFolders\upload\photo-1448518184296-a22facb4446f-700x450.jpg" />
+    <Content Include="TemplateFolders\upload\photo-1448518184296-a22facb4446f-700x660.jpg" />
+    <Content Include="TemplateFolders\upload\photo-1448518184296-a22facb4446f.jpg" />
+    <Content Include="TemplateFolders\upload\photo-1451337516015-6b6e9a44a8a3-1500x1000.jpg" />
+    <Content Include="TemplateFolders\upload\photo-1451337516015-6b6e9a44a8a3-700x660.jpg" />
+    <Content Include="TemplateFolders\upload\photo-1451337516015-6b6e9a44a8a3.jpg" />
+    <Content Include="TemplateFolders\upload\photo-1459255418679-d6424da9ee33-1100x490.jpg" />
+    <Content Include="TemplateFolders\upload\photo-1459255418679-d6424da9ee33-1280x580.jpg" />
+    <Content Include="TemplateFolders\upload\photo-1459255418679-d6424da9ee33-1500x1000.jpg" />
+    <Content Include="TemplateFolders\upload\photo-1459255418679-d6424da9ee33-150x150.jpg" />
+    <Content Include="TemplateFolders\upload\photo-1459255418679-d6424da9ee33-1550x700.jpg" />
+    <Content Include="TemplateFolders\upload\photo-1459255418679-d6424da9ee33-600x700.jpg" />
+    <Content Include="TemplateFolders\upload\photo-1459255418679-d6424da9ee33-600x800.jpg" />
+    <Content Include="TemplateFolders\upload\photo-1459255418679-d6424da9ee33-700x430.jpg" />
+    <Content Include="TemplateFolders\upload\photo-1459255418679-d6424da9ee33-700x450.jpg" />
+    <Content Include="TemplateFolders\upload\photo-1459255418679-d6424da9ee33-700x500.jpg" />
+    <Content Include="TemplateFolders\upload\photo-1459255418679-d6424da9ee33-700x660.jpg" />
+    <Content Include="TemplateFolders\upload\photo-1459255418679-d6424da9ee33.jpg" />
+    <Content Include="TemplateFolders\upload\photodune-4791527-golden-gate-bridge-m-700x430.jpg" />
+    <Content Include="TemplateFolders\upload\photodune-4791527-golden-gate-bridge-m.jpg" />
+    <Content Include="TemplateFolders\upload\photodune-488847-venice-m-600x600.jpg" />
+    <Content Include="TemplateFolders\upload\photodune-488847-venice-m-800x960.jpg" />
+    <Content Include="TemplateFolders\upload\rio-de-janeiro-olympics-2016-niteroi-brazil-161212-600x800.jpg" />
+    <Content Include="TemplateFolders\upload\rio-de-janeiro-olympics-2016-niteroi-brazil-161212-700x660.jpg" />
+    <Content Include="TemplateFolders\upload\search-bg-2.jpg" />
+    <Content Include="TemplateFolders\upload\search-bg-3.jpg" />
+    <Content Include="TemplateFolders\upload\search-bg-top.jpg" />
+    <Content Include="TemplateFolders\upload\search-bg.jpg" />
+    <Content Include="TemplateFolders\upload\section-bg-1.jpg" />
+    <Content Include="TemplateFolders\upload\section-bg-2.jpg" />
+    <Content Include="TemplateFolders\upload\section-bg-3.jpg" />
+    <Content Include="TemplateFolders\upload\section-bg-4.jpg" />
+    <Content Include="TemplateFolders\upload\shutterstock_117062077-1280x580.jpg" />
+    <Content Include="TemplateFolders\upload\shutterstock_117062077-700x430.jpg" />
+    <Content Include="TemplateFolders\upload\shutterstock_117062077.jpg" />
+    <Content Include="TemplateFolders\upload\shutterstock_120562819-1024x683.jpg" />
+    <Content Include="TemplateFolders\upload\shutterstock_120562819-1280x580.jpg" />
+    <Content Include="TemplateFolders\upload\shutterstock_120562819-1500x1000.jpg" />
+    <Content Include="TemplateFolders\upload\shutterstock_120562819-150x150.jpg" />
+    <Content Include="TemplateFolders\upload\shutterstock_120562819-600x600.jpg" />
+    <Content Include="TemplateFolders\upload\shutterstock_120562819-600x700.jpg" />
+    <Content Include="TemplateFolders\upload\shutterstock_120562819-600x800.jpg" />
+    <Content Include="TemplateFolders\upload\shutterstock_120562819-700x430.jpg" />
+    <Content Include="TemplateFolders\upload\shutterstock_120562819-700x450.jpg" />
+    <Content Include="TemplateFolders\upload\shutterstock_120562819-700x500.jpg" />
+    <Content Include="TemplateFolders\upload\shutterstock_120562819-700x660.jpg" />
+    <Content Include="TemplateFolders\upload\shutterstock_120562819-800x960.jpg" />
+    <Content Include="TemplateFolders\upload\shutterstock_120562819.jpg" />
+    <Content Include="TemplateFolders\upload\shutterstock_124333858-600x600.jpg" />
+    <Content Include="TemplateFolders\upload\shutterstock_124333858-800x960.jpg" />
+    <Content Include="TemplateFolders\upload\shutterstock_132927353.jpg" />
+    <Content Include="TemplateFolders\upload\shutterstock_134373716-600x800.jpg" />
+    <Content Include="TemplateFolders\upload\shutterstock_134373716-700x660.jpg" />
+    <Content Include="TemplateFolders\upload\shutterstock_136984760-1024x674.jpg" />
+    <Content Include="TemplateFolders\upload\shutterstock_136984760-1500x1000.jpg" />
+    <Content Include="TemplateFolders\upload\shutterstock_136984760-150x150.jpg" />
+    <Content Include="TemplateFolders\upload\shutterstock_136984760-600x800.jpg" />
+    <Content Include="TemplateFolders\upload\shutterstock_136984760-700x430.jpg" />
+    <Content Include="TemplateFolders\upload\shutterstock_136984760-700x450.jpg" />
+    <Content Include="TemplateFolders\upload\shutterstock_136984760-700x500.jpg" />
+    <Content Include="TemplateFolders\upload\shutterstock_136984760-700x660.jpg" />
+    <Content Include="TemplateFolders\upload\shutterstock_136984760-900x500.jpg" />
+    <Content Include="TemplateFolders\upload\shutterstock_136984760.jpg" />
+    <Content Include="TemplateFolders\upload\shutterstock_139999093-600x800.jpg" />
+    <Content Include="TemplateFolders\upload\shutterstock_139999093-700x660.jpg" />
+    <Content Include="TemplateFolders\upload\shutterstock_139999093.jpg" />
+    <Content Include="TemplateFolders\upload\shutterstock_147744218-1024x683.jpg" />
+    <Content Include="TemplateFolders\upload\shutterstock_147744218-1280x580.jpg" />
+    <Content Include="TemplateFolders\upload\shutterstock_147744218-1500x1000.jpg" />
+    <Content Include="TemplateFolders\upload\shutterstock_147744218-600x600.jpg" />
+    <Content Include="TemplateFolders\upload\shutterstock_147744218-600x700.jpg" />
+    <Content Include="TemplateFolders\upload\shutterstock_147744218-600x800.jpg" />
+    <Content Include="TemplateFolders\upload\shutterstock_147744218-700x430.jpg" />
+    <Content Include="TemplateFolders\upload\shutterstock_147744218-700x450.jpg" />
+    <Content Include="TemplateFolders\upload\shutterstock_147744218-700x500.jpg" />
+    <Content Include="TemplateFolders\upload\shutterstock_147744218-700x660.jpg" />
+    <Content Include="TemplateFolders\upload\shutterstock_147744218-800x960.jpg" />
+    <Content Include="TemplateFolders\upload\shutterstock_147744218.jpg" />
+    <Content Include="TemplateFolders\upload\shutterstock_151616084-1024x683.jpg" />
+    <Content Include="TemplateFolders\upload\shutterstock_151616084-1100x490.jpg" />
+    <Content Include="TemplateFolders\upload\shutterstock_151616084-1280x580.jpg" />
+    <Content Include="TemplateFolders\upload\shutterstock_151616084-1500x1000.jpg" />
+    <Content Include="TemplateFolders\upload\shutterstock_151616084-150x150.jpg" />
+    <Content Include="TemplateFolders\upload\shutterstock_151616084-300x200.jpg" />
+    <Content Include="TemplateFolders\upload\shutterstock_151616084-600x700.jpg" />
+    <Content Include="TemplateFolders\upload\shutterstock_151616084-600x800.jpg" />
+    <Content Include="TemplateFolders\upload\shutterstock_151616084-700x430.jpg" />
+    <Content Include="TemplateFolders\upload\shutterstock_151616084-700x450.jpg" />
+    <Content Include="TemplateFolders\upload\shutterstock_151616084-700x500.jpg" />
+    <Content Include="TemplateFolders\upload\shutterstock_151616084-700x660.jpg" />
+    <Content Include="TemplateFolders\upload\shutterstock_151616084.jpg" />
+    <Content Include="TemplateFolders\upload\shutterstock_154497503-600x800.jpg" />
+    <Content Include="TemplateFolders\upload\shutterstock_154497503-700x430.jpg" />
+    <Content Include="TemplateFolders\upload\shutterstock_154497503-700x500.jpg" />
+    <Content Include="TemplateFolders\upload\shutterstock_154497503-700x660.jpg" />
+    <Content Include="TemplateFolders\upload\shutterstock_154497503.jpg" />
+    <Content Include="TemplateFolders\upload\shutterstock_166193831-1100x490.jpg" />
+    <Content Include="TemplateFolders\upload\shutterstock_166193831-1280x580.jpg" />
+    <Content Include="TemplateFolders\upload\shutterstock_166193831-700x430.jpg" />
+    <Content Include="TemplateFolders\upload\shutterstock_166193831.jpg" />
+    <Content Include="TemplateFolders\upload\shutterstock_178807262-1024x683.jpg" />
+    <Content Include="TemplateFolders\upload\shutterstock_178807262-1280x580.jpg" />
+    <Content Include="TemplateFolders\upload\shutterstock_178807262-1500x1000.jpg" />
+    <Content Include="TemplateFolders\upload\shutterstock_178807262-150x150.jpg" />
+    <Content Include="TemplateFolders\upload\shutterstock_178807262-600x700.jpg" />
+    <Content Include="TemplateFolders\upload\shutterstock_178807262-600x800.jpg" />
+    <Content Include="TemplateFolders\upload\shutterstock_178807262-700x430.jpg" />
+    <Content Include="TemplateFolders\upload\shutterstock_178807262-700x450.jpg" />
+    <Content Include="TemplateFolders\upload\shutterstock_178807262-700x500.jpg" />
+    <Content Include="TemplateFolders\upload\shutterstock_178807262-700x660.jpg" />
+    <Content Include="TemplateFolders\upload\shutterstock_178807262.jpg" />
+    <Content Include="TemplateFolders\upload\shutterstock_195507533-1100x490.jpg" />
+    <Content Include="TemplateFolders\upload\shutterstock_195507533-1280x580.jpg" />
+    <Content Include="TemplateFolders\upload\shutterstock_195507533-1500x1000.jpg" />
+    <Content Include="TemplateFolders\upload\shutterstock_195507533-150x150.jpg" />
+    <Content Include="TemplateFolders\upload\shutterstock_195507533-300x200.jpg" />
+    <Content Include="TemplateFolders\upload\shutterstock_195507533-700x430.jpg" />
+    <Content Include="TemplateFolders\upload\shutterstock_195507533-700x660.jpg" />
+    <Content Include="TemplateFolders\upload\shutterstock_195507533.jpg" />
+    <Content Include="TemplateFolders\upload\shutterstock_198556997-700x660.jpg" />
+    <Content Include="TemplateFolders\upload\shutterstock_198556997.jpg" />
+    <Content Include="TemplateFolders\upload\shutterstock_210601591-1100x490.jpg" />
+    <Content Include="TemplateFolders\upload\shutterstock_210601591-1280x580.jpg" />
+    <Content Include="TemplateFolders\upload\shutterstock_210601591-150x150.jpg" />
+    <Content Include="TemplateFolders\upload\shutterstock_210601591-700x430.jpg" />
+    <Content Include="TemplateFolders\upload\shutterstock_210601591-700x450.jpg" />
+    <Content Include="TemplateFolders\upload\shutterstock_210601591-700x500.jpg" />
+    <Content Include="TemplateFolders\upload\shutterstock_210601591-700x660.jpg" />
+    <Content Include="TemplateFolders\upload\shutterstock_210601591.jpg" />
+    <Content Include="TemplateFolders\upload\shutterstock_220323652-150x150.jpg" />
+    <Content Include="TemplateFolders\upload\shutterstock_220323652-700x450.jpg" />
+    <Content Include="TemplateFolders\upload\shutterstock_220323652-700x500.jpg" />
+    <Content Include="TemplateFolders\upload\shutterstock_220323652-700x660.jpg" />
+    <Content Include="TemplateFolders\upload\shutterstock_220323652-900x500.jpg" />
+    <Content Include="TemplateFolders\upload\shutterstock_220323652.jpg" />
+    <Content Include="TemplateFolders\upload\shutterstock_242387536-700x660.jpg" />
+    <Content Include="TemplateFolders\upload\shutterstock_242387536.jpg" />
+    <Content Include="TemplateFolders\upload\shutterstock_245507692-1024x683.jpg" />
+    <Content Include="TemplateFolders\upload\shutterstock_245507692-1280x580.jpg" />
+    <Content Include="TemplateFolders\upload\shutterstock_245507692-1500x1000.jpg" />
+    <Content Include="TemplateFolders\upload\shutterstock_245507692-150x150.jpg" />
+    <Content Include="TemplateFolders\upload\shutterstock_245507692-600x600.jpg" />
+    <Content Include="TemplateFolders\upload\shutterstock_245507692-600x700.jpg" />
+    <Content Include="TemplateFolders\upload\shutterstock_245507692-600x800.jpg" />
+    <Content Include="TemplateFolders\upload\shutterstock_245507692-700x430.jpg" />
+    <Content Include="TemplateFolders\upload\shutterstock_245507692-700x450.jpg" />
+    <Content Include="TemplateFolders\upload\shutterstock_245507692-700x500.jpg" />
+    <Content Include="TemplateFolders\upload\shutterstock_245507692-700x660.jpg" />
+    <Content Include="TemplateFolders\upload\shutterstock_245507692-900x500.jpg" />
+    <Content Include="TemplateFolders\upload\shutterstock_245507692.jpg" />
+    <Content Include="TemplateFolders\upload\shutterstock_254090041-1024x683.jpg" />
+    <Content Include="TemplateFolders\upload\shutterstock_254090041-1500x1000.jpg" />
+    <Content Include="TemplateFolders\upload\shutterstock_254090041-150x150.jpg" />
+    <Content Include="TemplateFolders\upload\shutterstock_254090041-600x600.jpg" />
+    <Content Include="TemplateFolders\upload\shutterstock_254090041-600x800.jpg" />
+    <Content Include="TemplateFolders\upload\shutterstock_254090041-700x430.jpg" />
+    <Content Include="TemplateFolders\upload\shutterstock_254090041-700x450.jpg" />
+    <Content Include="TemplateFolders\upload\shutterstock_254090041-700x500.jpg" />
+    <Content Include="TemplateFolders\upload\shutterstock_254090041-700x660.jpg" />
+    <Content Include="TemplateFolders\upload\shutterstock_254090041-900x500.jpg" />
+    <Content Include="TemplateFolders\upload\shutterstock_254090041.jpg" />
+    <Content Include="TemplateFolders\upload\shutterstock_255194035-600x600.jpg" />
+    <Content Include="TemplateFolders\upload\shutterstock_255194035-800x960.jpg" />
+    <Content Include="TemplateFolders\upload\shutterstock_255194035.jpg" />
+    <Content Include="TemplateFolders\upload\shutterstock_61340065-600x800.jpg" />
+    <Content Include="TemplateFolders\upload\shutterstock_61340065-700x660.jpg" />
+    <Content Include="TemplateFolders\upload\shutterstock_74901229-1500x1000.jpg" />
+    <Content Include="TemplateFolders\upload\shutterstock_74901229-300x200.jpg" />
+    <Content Include="TemplateFolders\upload\shutterstock_74901229.jpg" />
+    <Content Include="TemplateFolders\upload\shutterstock_94851763-1500x1000.jpg" />
+    <Content Include="TemplateFolders\upload\shutterstock_94851763-300x199.jpg" />
+    <Content Include="TemplateFolders\upload\shutterstock_94851763-700x430.jpg" />
+    <Content Include="TemplateFolders\upload\shutterstock_94851763.jpg" />
+    <Content Include="TemplateFolders\upload\slider-1.jpg" />
+    <Content Include="TemplateFolders\upload\slider-2.jpg" />
+    <Content Include="TemplateFolders\upload\slider-3.jpg" />
+    <Content Include="TemplateFolders\upload\stunning-bg-2.jpg" />
+    <Content Include="TemplateFolders\upload\stunning-bg.jpg" />
+    <Content Include="TemplateFolders\upload\sunrise-phu-quoc-island-ocean-600x800.jpg" />
+    <Content Include="TemplateFolders\upload\sunrise-phu-quoc-island-ocean-700x500.jpg" />
+    <Content Include="TemplateFolders\upload\sunrise-phu-quoc-island-ocean.jpg" />
+    <Content Include="TemplateFolders\upload\testimonial-bg.jpg" />
+    <Content Include="TemplateFolders\upload\TNK87N7464-150x150.jpg" />
+    <Content Include="TemplateFolders\upload\tour-bg-2.jpg" />
+    <Content Include="TemplateFolders\upload\tour-bg-3.jpg" />
+    <Content Include="TemplateFolders\upload\widget-bg.jpg" />
+    <Content Include="Web.config" />
+    <Content Include="Web.Debug.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </Content>
+    <Content Include="Web.Release.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </Content>
+    <Content Include="Views\Web.config" />
+    <Content Include="Views\_ViewStart.cshtml" />
+    <Content Include="Views\Shared\Error.cshtml" />
+    <Content Include="Views\Shared\_Layout.cshtml" />
+    <Content Include="Views\Home\About.cshtml" />
+    <Content Include="Views\Home\Contact.cshtml" />
+    <Content Include="Views\Home\Index.cshtml" />
+    <Content Include="Views\Shared\_MasterLayout.cshtml" />
+    <Content Include="TemplateFolders\plugins\goodlayers-core\plugins\combine\elegant\ElegantIcons.eot" />
+    <Content Include="TemplateFolders\plugins\goodlayers-core\plugins\combine\elegant\ElegantIcons.ttf" />
+    <Content Include="TemplateFolders\plugins\goodlayers-core\plugins\combine\elegant\ElegantIcons.woff" />
+    <Content Include="TemplateFolders\plugins\goodlayers-core\plugins\combine\elegant\ElegantIconsd41dd41d.eot" />
+    <Content Include="TemplateFolders\plugins\goodlayers-core\plugins\combine\fontawesome\fontawesome-webfont3e6e3e6e.eot" />
+    <Content Include="TemplateFolders\plugins\goodlayers-core\plugins\combine\fontawesome\fontawesome-webfont3e6e3e6e.ttf" />
+    <Content Include="TemplateFolders\plugins\goodlayers-core\plugins\combine\fontawesome\fontawesome-webfont3e6e3e6e.woff" />
+    <Content Include="TemplateFolders\plugins\goodlayers-core\plugins\combine\fontawesome\fontawesome-webfont3e6e3e6e.woff2" />
+    <Content Include="TemplateFolders\plugins\goodlayers-core\plugins\combine\fontawesome\fontawesome-webfontd41dd41d.eot" />
+    <Content Include="TemplateFolders\plugins\revslider\public\assets\fonts\revicons\revicons.eot" />
+    <Content Include="TemplateFolders\plugins\revslider\public\assets\fonts\revicons\revicons.ttf" />
+    <Content Include="TemplateFolders\plugins\revslider\public\assets\fonts\revicons\revicons.woff" />
+    <Content Include="TemplateFolders\plugins\tourmaster\plugins\elegant-font\fonts\ElegantIcons.eot" />
+    <Content Include="TemplateFolders\plugins\tourmaster\plugins\elegant-font\fonts\ElegantIcons.ttf" />
+    <Content Include="TemplateFolders\plugins\tourmaster\plugins\elegant-font\fonts\ElegantIcons.woff" />
+    <Content Include="TemplateFolders\plugins\tourmaster\plugins\elegant-font\fonts\ElegantIconsd41dd41d.eot" />
+    <Content Include="TemplateFolders\plugins\tourmaster\plugins\flaticon\Flaticon.eot" />
+    <Content Include="TemplateFolders\plugins\tourmaster\plugins\flaticon\Flaticon.ttf" />
+    <Content Include="TemplateFolders\plugins\tourmaster\plugins\flaticon\Flaticon.woff" />
+    <Content Include="TemplateFolders\plugins\tourmaster\plugins\flaticon\Flaticond41dd41d.eot" />
+    <Content Include="Views\Home\Home.cshtml" />
+    <Content Include="Views\Home\Packages.cshtml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="App_Data\" />
+    <Folder Include="Models\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="fonts\glyphicons-halflings-regular.woff2" />
+    <Content Include="fonts\glyphicons-halflings-regular.woff" />
+    <Content Include="fonts\glyphicons-halflings-regular.ttf" />
+    <Content Include="fonts\glyphicons-halflings-regular.eot" />
+    <Content Include="Content\bootstrap.min.css.map" />
+    <Content Include="Content\bootstrap.css.map" />
+    <Content Include="Content\bootstrap-theme.min.css.map" />
+    <Content Include="Content\bootstrap-theme.css.map" />
+    <None Include="packages.config" />
+    <Content Include="Scripts\jquery-3.3.1.slim.min.map" />
+    <Content Include="Scripts\jquery-3.3.1.min.map" />
+  </ItemGroup>
+  <PropertyGroup>
+    <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
+    <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
+  </PropertyGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <Import Project="$(VSToolsPath)\WebApplications\Microsoft.WebApplication.targets" Condition="'$(VSToolsPath)' != ''" />
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v10.0\WebApplications\Microsoft.WebApplication.targets" Condition="false" />
+  <Target Name="MvcBuildViews" AfterTargets="AfterBuild" Condition="'$(MvcBuildViews)'=='true'">
+    <AspNetCompiler VirtualPath="temp" PhysicalPath="$(WebProjectOutputDir)" />
+  </Target>
+  <ProjectExtensions>
+    <VisualStudio>
+      <FlavorProperties GUID="{349c5851-65df-11da-9384-00065b846f21}">
+        <WebProjectProperties>
+          <UseIIS>True</UseIIS>
+          <AutoAssignPort>True</AutoAssignPort>
+          <DevelopmentServerPort>57652</DevelopmentServerPort>
+          <DevelopmentServerVPath>/</DevelopmentServerVPath>
+          <IISUrl>http://localhost:57652/</IISUrl>
+          <NTLMAuthentication>False</NTLMAuthentication>
+          <UseCustomServer>False</UseCustomServer>
+          <CustomServerUrl>
+          </CustomServerUrl>
+          <SaveServerSettingsInUserFile>False</SaveServerSettingsInUserFile>
+        </WebProjectProperties>
+      </FlavorProperties>
+    </VisualStudio>
+  </ProjectExtensions>
+  <Target Name="EnsureNuGetPackageBuildImports" BeforeTargets="PrepareForBuild">
+    <PropertyGroup>
+      <ErrorText>This project references NuGet package(s) that are missing on this computer. Use NuGet Package Restore to download them.  For more information, see http://go.microsoft.com/fwlink/?LinkID=322105. The missing file is {0}.</ErrorText>
+    </PropertyGroup>
+    <Error Condition="!Exists('..\packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.0\build\net46\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.props')" Text="$([System.String]::Format('$(ErrorText)', '..\packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.0\build\net46\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.props'))" />
+  </Target>
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it.
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target> -->
+</Project>

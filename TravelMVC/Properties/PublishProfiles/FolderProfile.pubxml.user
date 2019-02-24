@@ -1,0 +1,1540 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+This file is used by the publish/package process of your Web project. You can customize the behavior of this process
+by editing this MSBuild file. In order to learn more about this please visit https://go.microsoft.com/fwlink/?LinkID=208121. 
+-->
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <TimeStampOfAssociatedLegacyPublishXmlFile />
+    <_PublishTargetUrl>C:\Users\techp\Desktop\Travel</_PublishTargetUrl>
+  </PropertyGroup>
+  <ItemGroup>
+    <File Include="ApplicationInsights.config">
+      <publishTime>01/08/2019 00:24:56</publishTime>
+    </File>
+    <File Include="bin/Antlr3.Runtime.dll">
+      <publishTime>09/11/2013 04:59:20</publishTime>
+    </File>
+    <File Include="bin/Antlr3.Runtime.pdb">
+      <publishTime>09/11/2013 04:59:20</publishTime>
+    </File>
+    <File Include="bin/ApplicationInsights.config">
+      <publishTime>01/08/2019 00:24:56</publishTime>
+    </File>
+    <File Include="bin/Microsoft.AI.Agent.Intercept.dll">
+      <publishTime>06/28/2017 01:29:34</publishTime>
+    </File>
+    <File Include="bin/Microsoft.AI.DependencyCollector.dll">
+      <publishTime>02/23/2018 04:55:18</publishTime>
+    </File>
+    <File Include="bin/Microsoft.AI.PerfCounterCollector.dll">
+      <publishTime>02/23/2018 05:06:44</publishTime>
+    </File>
+    <File Include="bin/Microsoft.AI.ServerTelemetryChannel.dll">
+      <publishTime>02/23/2018 03:09:42</publishTime>
+    </File>
+    <File Include="bin/Microsoft.AI.Web.dll">
+      <publishTime>02/23/2018 05:05:08</publishTime>
+    </File>
+    <File Include="bin/Microsoft.AI.WindowsServer.dll">
+      <publishTime>02/23/2018 05:06:42</publishTime>
+    </File>
+    <File Include="bin/Microsoft.ApplicationInsights.dll">
+      <publishTime>02/23/2018 03:06:52</publishTime>
+    </File>
+    <File Include="bin/Microsoft.AspNet.TelemetryCorrelation.dll">
+      <publishTime>06/29/2017 03:35:26</publishTime>
+    </File>
+    <File Include="bin/Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll">
+      <publishTime>05/25/2018 02:08:22</publishTime>
+    </File>
+    <File Include="bin/Microsoft.Web.Infrastructure.dll">
+      <publishTime>07/26/2012 00:18:56</publishTime>
+    </File>
+    <File Include="bin/Newtonsoft.Json.dll">
+      <publishTime>02/18/2018 22:14:54</publishTime>
+    </File>
+    <File Include="bin/roslyn/csc.exe">
+      <publishTime>05/25/2018 02:08:22</publishTime>
+    </File>
+    <File Include="bin/roslyn/csc.exe.config">
+      <publishTime>05/25/2018 02:08:22</publishTime>
+    </File>
+    <File Include="bin/roslyn/csc.rsp">
+      <publishTime>05/25/2018 02:08:22</publishTime>
+    </File>
+    <File Include="bin/roslyn/csi.exe">
+      <publishTime>05/25/2018 02:08:22</publishTime>
+    </File>
+    <File Include="bin/roslyn/csi.exe.config">
+      <publishTime>05/25/2018 02:08:22</publishTime>
+    </File>
+    <File Include="bin/roslyn/csi.rsp">
+      <publishTime>05/25/2018 02:08:22</publishTime>
+    </File>
+    <File Include="bin/roslyn/Microsoft.Build.Tasks.CodeAnalysis.dll">
+      <publishTime>05/25/2018 02:08:22</publishTime>
+    </File>
+    <File Include="bin/roslyn/Microsoft.CodeAnalysis.CSharp.dll">
+      <publishTime>05/25/2018 02:08:24</publishTime>
+    </File>
+    <File Include="bin/roslyn/Microsoft.CodeAnalysis.CSharp.Scripting.dll">
+      <publishTime>05/25/2018 02:08:24</publishTime>
+    </File>
+    <File Include="bin/roslyn/Microsoft.CodeAnalysis.dll">
+      <publishTime>05/25/2018 02:08:24</publishTime>
+    </File>
+    <File Include="bin/roslyn/Microsoft.CodeAnalysis.Scripting.dll">
+      <publishTime>05/25/2018 02:08:24</publishTime>
+    </File>
+    <File Include="bin/roslyn/Microsoft.CodeAnalysis.VisualBasic.dll">
+      <publishTime>05/25/2018 02:08:24</publishTime>
+    </File>
+    <File Include="bin/roslyn/Microsoft.CSharp.Core.targets">
+      <publishTime>05/25/2018 02:08:24</publishTime>
+    </File>
+    <File Include="bin/roslyn/Microsoft.DiaSymReader.Native.amd64.dll">
+      <publishTime>05/25/2018 02:08:24</publishTime>
+    </File>
+    <File Include="bin/roslyn/Microsoft.DiaSymReader.Native.x86.dll">
+      <publishTime>05/25/2018 02:08:24</publishTime>
+    </File>
+    <File Include="bin/roslyn/Microsoft.Managed.Core.targets">
+      <publishTime>05/25/2018 02:08:24</publishTime>
+    </File>
+    <File Include="bin/roslyn/Microsoft.VisualBasic.Core.targets">
+      <publishTime>05/25/2018 02:08:24</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.AppContext.dll">
+      <publishTime>05/25/2018 02:08:24</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.Collections.Immutable.dll">
+      <publishTime>05/25/2018 02:08:24</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.Console.dll">
+      <publishTime>05/25/2018 02:08:24</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.Diagnostics.FileVersionInfo.dll">
+      <publishTime>05/25/2018 02:08:24</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.Diagnostics.StackTrace.dll">
+      <publishTime>05/25/2018 02:08:24</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.IO.Compression.dll">
+      <publishTime>05/25/2018 02:08:24</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.IO.FileSystem.dll">
+      <publishTime>05/25/2018 02:08:24</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.IO.FileSystem.Primitives.dll">
+      <publishTime>05/25/2018 02:08:24</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.IO.Pipes.AccessControl.dll">
+      <publishTime>05/25/2018 02:08:24</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.IO.Pipes.dll">
+      <publishTime>05/25/2018 02:08:24</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.Reflection.Metadata.dll">
+      <publishTime>05/25/2018 02:08:24</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.Security.AccessControl.dll">
+      <publishTime>05/25/2018 02:08:24</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.Security.Claims.dll">
+      <publishTime>05/25/2018 02:08:24</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.Security.Cryptography.Algorithms.dll">
+      <publishTime>05/25/2018 02:08:24</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.Security.Cryptography.Encoding.dll">
+      <publishTime>05/25/2018 02:08:24</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.Security.Cryptography.Primitives.dll">
+      <publishTime>05/25/2018 02:08:24</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.Security.Cryptography.X509Certificates.dll">
+      <publishTime>05/25/2018 02:08:24</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.Security.Principal.Windows.dll">
+      <publishTime>05/25/2018 02:08:24</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.Text.Encoding.CodePages.dll">
+      <publishTime>05/25/2018 02:08:24</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.ValueTuple.dll">
+      <publishTime>05/25/2018 02:08:24</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.Xml.ReaderWriter.dll">
+      <publishTime>05/25/2018 02:08:24</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.Xml.XmlDocument.dll">
+      <publishTime>05/25/2018 02:08:24</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.Xml.XPath.dll">
+      <publishTime>05/25/2018 02:08:24</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.Xml.XPath.XDocument.dll">
+      <publishTime>05/25/2018 02:08:24</publishTime>
+    </File>
+    <File Include="bin/roslyn/vbc.exe">
+      <publishTime>05/25/2018 02:08:24</publishTime>
+    </File>
+    <File Include="bin/roslyn/vbc.exe.config">
+      <publishTime>05/25/2018 02:08:24</publishTime>
+    </File>
+    <File Include="bin/roslyn/vbc.rsp">
+      <publishTime>05/25/2018 02:08:24</publishTime>
+    </File>
+    <File Include="bin/roslyn/VBCSCompiler.exe">
+      <publishTime>05/25/2018 02:08:24</publishTime>
+    </File>
+    <File Include="bin/roslyn/VBCSCompiler.exe.config">
+      <publishTime>05/25/2018 02:08:24</publishTime>
+    </File>
+    <File Include="bin/System.Diagnostics.DiagnosticSource.dll">
+      <publishTime>07/19/2017 22:31:30</publishTime>
+    </File>
+    <File Include="bin/System.Web.Helpers.dll">
+      <publishTime>02/02/2018 00:50:56</publishTime>
+    </File>
+    <File Include="bin/System.Web.Mvc.dll">
+      <publishTime>02/02/2018 00:46:32</publishTime>
+    </File>
+    <File Include="bin/System.Web.Optimization.dll">
+      <publishTime>02/12/2014 03:56:04</publishTime>
+    </File>
+    <File Include="bin/System.Web.Razor.dll">
+      <publishTime>02/02/2018 00:46:56</publishTime>
+    </File>
+    <File Include="bin/System.Web.WebPages.Deployment.dll">
+      <publishTime>02/02/2018 00:50:56</publishTime>
+    </File>
+    <File Include="bin/System.Web.WebPages.dll">
+      <publishTime>02/02/2018 00:50:56</publishTime>
+    </File>
+    <File Include="bin/System.Web.WebPages.Razor.dll">
+      <publishTime>02/02/2018 00:50:56</publishTime>
+    </File>
+    <File Include="bin/TravelMVC.dll">
+      <publishTime>01/10/2019 00:30:43</publishTime>
+    </File>
+    <File Include="bin/TravelMVC.pdb">
+      <publishTime>01/10/2019 00:30:43</publishTime>
+    </File>
+    <File Include="bin/WebGrease.dll">
+      <publishTime>01/24/2014 02:27:34</publishTime>
+    </File>
+    <File Include="Content/bootstrap-theme.css">
+      <publishTime>01/08/2019 00:24:15</publishTime>
+    </File>
+    <File Include="Content/bootstrap-theme.css.map">
+      <publishTime>01/08/2019 00:24:15</publishTime>
+    </File>
+    <File Include="Content/bootstrap-theme.min.css">
+      <publishTime>01/08/2019 00:24:15</publishTime>
+    </File>
+    <File Include="Content/bootstrap-theme.min.css.map">
+      <publishTime>01/08/2019 00:24:15</publishTime>
+    </File>
+    <File Include="Content/bootstrap.css">
+      <publishTime>01/08/2019 00:24:15</publishTime>
+    </File>
+    <File Include="Content/bootstrap.css.map">
+      <publishTime>01/08/2019 00:24:15</publishTime>
+    </File>
+    <File Include="Content/bootstrap.min.css">
+      <publishTime>01/08/2019 00:24:15</publishTime>
+    </File>
+    <File Include="Content/bootstrap.min.css.map">
+      <publishTime>01/08/2019 00:24:13</publishTime>
+    </File>
+    <File Include="Content/Site.css">
+      <publishTime>01/08/2019 00:23:17</publishTime>
+    </File>
+    <File Include="favicon.ico">
+      <publishTime>01/08/2019 00:23:18</publishTime>
+    </File>
+    <File Include="fonts/glyphicons-halflings-regular.eot">
+      <publishTime>01/08/2019 00:24:13</publishTime>
+    </File>
+    <File Include="fonts/glyphicons-halflings-regular.svg">
+      <publishTime>01/08/2019 00:24:13</publishTime>
+    </File>
+    <File Include="fonts/glyphicons-halflings-regular.ttf">
+      <publishTime>01/08/2019 00:24:13</publishTime>
+    </File>
+    <File Include="fonts/glyphicons-halflings-regular.woff">
+      <publishTime>01/08/2019 00:24:13</publishTime>
+    </File>
+    <File Include="fonts/glyphicons-halflings-regular.woff2">
+      <publishTime>01/08/2019 00:24:13</publishTime>
+    </File>
+    <File Include="Global.asax">
+      <publishTime>01/08/2019 00:23:18</publishTime>
+    </File>
+    <File Include="Scripts/bootstrap.js">
+      <publishTime>01/08/2019 00:24:13</publishTime>
+    </File>
+    <File Include="Scripts/bootstrap.min.js">
+      <publishTime>01/08/2019 00:24:13</publishTime>
+    </File>
+    <File Include="Scripts/jquery-3.3.1.js">
+      <publishTime>01/08/2019 00:24:17</publishTime>
+    </File>
+    <File Include="Scripts/jquery-3.3.1.min.js">
+      <publishTime>01/08/2019 00:24:17</publishTime>
+    </File>
+    <File Include="Scripts/jquery-3.3.1.min.map">
+      <publishTime>01/08/2019 00:24:17</publishTime>
+    </File>
+    <File Include="Scripts/jquery-3.3.1.slim.js">
+      <publishTime>01/08/2019 00:24:17</publishTime>
+    </File>
+    <File Include="Scripts/jquery-3.3.1.slim.min.js">
+      <publishTime>01/08/2019 00:24:17</publishTime>
+    </File>
+    <File Include="Scripts/jquery-3.3.1.slim.min.map">
+      <publishTime>01/08/2019 00:24:17</publishTime>
+    </File>
+    <File Include="Scripts/jquery.validate.js">
+      <publishTime>01/08/2019 00:24:50</publishTime>
+    </File>
+    <File Include="Scripts/jquery.validate.min.js">
+      <publishTime>01/08/2019 00:24:50</publishTime>
+    </File>
+    <File Include="Scripts/jquery.validate.unobtrusive.js">
+      <publishTime>01/08/2019 00:24:51</publishTime>
+    </File>
+    <File Include="Scripts/jquery.validate.unobtrusive.min.js">
+      <publishTime>01/08/2019 00:24:51</publishTime>
+    </File>
+    <File Include="Scripts/modernizr-2.8.3.js">
+      <publishTime>01/08/2019 00:24:47</publishTime>
+    </File>
+    <File Include="TemplateFolders/css/style-core.css">
+      <publishTime>01/08/2019 00:34:06</publishTime>
+    </File>
+    <File Include="TemplateFolders/css/tourmaster-style-custom.css">
+      <publishTime>01/08/2019 00:34:06</publishTime>
+    </File>
+    <File Include="TemplateFolders/css/traveltour-style-custom.css">
+      <publishTime>01/08/2019 00:34:06</publishTime>
+    </File>
+    <File Include="TemplateFolders/images/404-background.jpg">
+      <publishTime>01/08/2019 00:34:06</publishTime>
+    </File>
+    <File Include="TemplateFolders/images/blog-title-gradient.png">
+      <publishTime>01/08/2019 00:34:06</publishTime>
+    </File>
+    <File Include="TemplateFolders/images/blog-title-top-gradient.png">
+      <publishTime>01/08/2019 00:34:06</publishTime>
+    </File>
+    <File Include="TemplateFolders/images/logo.png">
+      <publishTime>01/08/2019 00:34:06</publishTime>
+    </File>
+    <File Include="TemplateFolders/images/page-title-background.jpg">
+      <publishTime>01/08/2019 00:34:06</publishTime>
+    </File>
+    <File Include="TemplateFolders/images/preload.gif">
+      <publishTime>01/08/2019 00:34:06</publishTime>
+    </File>
+    <File Include="TemplateFolders/js/isotope.js">
+      <publishTime>01/08/2019 00:34:06</publishTime>
+    </File>
+    <File Include="TemplateFolders/js/jquery/jquery-migrate.min.js">
+      <publishTime>01/08/2019 00:34:06</publishTime>
+    </File>
+    <File Include="TemplateFolders/js/jquery/jquery.js">
+      <publishTime>01/08/2019 00:34:06</publishTime>
+    </File>
+    <File Include="TemplateFolders/js/jquery/ui/core.min.js">
+      <publishTime>01/08/2019 00:34:07</publishTime>
+    </File>
+    <File Include="TemplateFolders/js/jquery/ui/datepicker.min.js">
+      <publishTime>01/08/2019 00:34:07</publishTime>
+    </File>
+    <File Include="TemplateFolders/js/jquery/ui/effect.min.js">
+      <publishTime>01/08/2019 00:34:07</publishTime>
+    </File>
+    <File Include="TemplateFolders/js/plugins.js">
+      <publishTime>01/08/2019 00:34:07</publishTime>
+    </File>
+    <File Include="TemplateFolders/page/2/index.html">
+      <publishTime>01/08/2019 00:34:07</publishTime>
+    </File>
+    <File Include="TemplateFolders/page/3/index.html">
+      <publishTime>01/08/2019 00:34:07</publishTime>
+    </File>
+    <File Include="TemplateFolders/page/4/index.html">
+      <publishTime>01/08/2019 00:34:07</publishTime>
+    </File>
+    <File Include="TemplateFolders/plugins/goodlayers-core/include/css/page-builder.css">
+      <publishTime>01/08/2019 00:34:07</publishTime>
+    </File>
+    <File Include="TemplateFolders/plugins/goodlayers-core/include/images/blog-style/blog-item-gradient.png">
+      <publishTime>01/08/2019 00:34:07</publishTime>
+    </File>
+    <File Include="TemplateFolders/plugins/goodlayers-core/include/images/blog-style/blog-item-gradient2.png">
+      <publishTime>01/08/2019 00:34:07</publishTime>
+    </File>
+    <File Include="TemplateFolders/plugins/goodlayers-core/include/images/gallery/gallery-shadow.png">
+      <publishTime>01/08/2019 00:34:07</publishTime>
+    </File>
+    <File Include="TemplateFolders/plugins/goodlayers-core/include/images/portfolio/now-loading.gif">
+      <publishTime>01/08/2019 00:34:07</publishTime>
+    </File>
+    <File Include="TemplateFolders/plugins/goodlayers-core/include/images/post-slider/gradient.png">
+      <publishTime>01/08/2019 00:34:07</publishTime>
+    </File>
+    <File Include="TemplateFolders/plugins/goodlayers-core/include/js/page-builder.js">
+      <publishTime>01/08/2019 00:34:07</publishTime>
+    </File>
+    <File Include="TemplateFolders/plugins/goodlayers-core/plugins/combine/arrow-prev-icon-64.html">
+      <publishTime>01/08/2019 00:34:07</publishTime>
+    </File>
+    <File Include="TemplateFolders/plugins/goodlayers-core/plugins/combine/elegant/ElegantIcons.eot">
+      <publishTime>01/08/2019 00:34:07</publishTime>
+    </File>
+    <File Include="TemplateFolders/plugins/goodlayers-core/plugins/combine/elegant/ElegantIcons.svg">
+      <publishTime>01/08/2019 00:34:07</publishTime>
+    </File>
+    <File Include="TemplateFolders/plugins/goodlayers-core/plugins/combine/elegant/ElegantIcons.ttf">
+      <publishTime>01/08/2019 00:34:07</publishTime>
+    </File>
+    <File Include="TemplateFolders/plugins/goodlayers-core/plugins/combine/elegant/ElegantIcons.woff">
+      <publishTime>01/08/2019 00:34:08</publishTime>
+    </File>
+    <File Include="TemplateFolders/plugins/goodlayers-core/plugins/combine/elegant/ElegantIconsd41dd41d.eot">
+      <publishTime>01/08/2019 00:34:08</publishTime>
+    </File>
+    <File Include="TemplateFolders/plugins/goodlayers-core/plugins/combine/fontawesome/fontawesome-webfont3e6e3e6e.eot">
+      <publishTime>01/08/2019 00:34:08</publishTime>
+    </File>
+    <File Include="TemplateFolders/plugins/goodlayers-core/plugins/combine/fontawesome/fontawesome-webfont3e6e3e6e.svg">
+      <publishTime>01/08/2019 00:34:08</publishTime>
+    </File>
+    <File Include="TemplateFolders/plugins/goodlayers-core/plugins/combine/fontawesome/fontawesome-webfont3e6e3e6e.ttf">
+      <publishTime>01/08/2019 00:34:08</publishTime>
+    </File>
+    <File Include="TemplateFolders/plugins/goodlayers-core/plugins/combine/fontawesome/fontawesome-webfont3e6e3e6e.woff">
+      <publishTime>01/08/2019 00:34:08</publishTime>
+    </File>
+    <File Include="TemplateFolders/plugins/goodlayers-core/plugins/combine/fontawesome/fontawesome-webfont3e6e3e6e.woff2">
+      <publishTime>01/08/2019 00:34:08</publishTime>
+    </File>
+    <File Include="TemplateFolders/plugins/goodlayers-core/plugins/combine/fontawesome/fontawesome-webfontd41dd41d.eot">
+      <publishTime>01/08/2019 00:34:08</publishTime>
+    </File>
+    <File Include="TemplateFolders/plugins/goodlayers-core/plugins/combine/script.js">
+      <publishTime>01/08/2019 00:34:08</publishTime>
+    </File>
+    <File Include="TemplateFolders/plugins/goodlayers-core/plugins/combine/skin-ilightbox/closedhand.cur">
+      <publishTime>01/08/2019 00:34:08</publishTime>
+    </File>
+    <File Include="TemplateFolders/plugins/goodlayers-core/plugins/combine/skin-ilightbox/dark-skin/alert.png">
+      <publishTime>01/08/2019 00:34:08</publishTime>
+    </File>
+    <File Include="TemplateFolders/plugins/goodlayers-core/plugins/combine/skin-ilightbox/dark-skin/arrow-next-icon-64.png">
+      <publishTime>01/08/2019 00:34:08</publishTime>
+    </File>
+    <File Include="TemplateFolders/plugins/goodlayers-core/plugins/combine/skin-ilightbox/dark-skin/arrow-next-icon-ie.png">
+      <publishTime>01/08/2019 00:34:08</publishTime>
+    </File>
+    <File Include="TemplateFolders/plugins/goodlayers-core/plugins/combine/skin-ilightbox/dark-skin/arrow-next-vertical-icon-64.png">
+      <publishTime>01/08/2019 00:34:08</publishTime>
+    </File>
+    <File Include="TemplateFolders/plugins/goodlayers-core/plugins/combine/skin-ilightbox/dark-skin/arrow-prev-icon-64.png">
+      <publishTime>01/08/2019 00:34:08</publishTime>
+    </File>
+    <File Include="TemplateFolders/plugins/goodlayers-core/plugins/combine/skin-ilightbox/dark-skin/arrow-prev-icon-ie.png">
+      <publishTime>01/08/2019 00:34:08</publishTime>
+    </File>
+    <File Include="TemplateFolders/plugins/goodlayers-core/plugins/combine/skin-ilightbox/dark-skin/arrow-prev-vertical-icon-64.png">
+      <publishTime>01/08/2019 00:34:08</publishTime>
+    </File>
+    <File Include="TemplateFolders/plugins/goodlayers-core/plugins/combine/skin-ilightbox/dark-skin/buttons.png">
+      <publishTime>01/08/2019 00:34:08</publishTime>
+    </File>
+    <File Include="TemplateFolders/plugins/goodlayers-core/plugins/combine/skin-ilightbox/dark-skin/caption-bg.png">
+      <publishTime>01/08/2019 00:34:08</publishTime>
+    </File>
+    <File Include="TemplateFolders/plugins/goodlayers-core/plugins/combine/skin-ilightbox/dark-skin/fullscreen-icon-64.png">
+      <publishTime>01/08/2019 00:34:08</publishTime>
+    </File>
+    <File Include="TemplateFolders/plugins/goodlayers-core/plugins/combine/skin-ilightbox/dark-skin/fullscreen-icon-ie.png">
+      <publishTime>01/08/2019 00:34:08</publishTime>
+    </File>
+    <File Include="TemplateFolders/plugins/goodlayers-core/plugins/combine/skin-ilightbox/dark-skin/pause-icon-64.png">
+      <publishTime>01/08/2019 00:34:08</publishTime>
+    </File>
+    <File Include="TemplateFolders/plugins/goodlayers-core/plugins/combine/skin-ilightbox/dark-skin/pause-icon-ie.png">
+      <publishTime>01/08/2019 00:34:08</publishTime>
+    </File>
+    <File Include="TemplateFolders/plugins/goodlayers-core/plugins/combine/skin-ilightbox/dark-skin/play-icon-64.png">
+      <publishTime>01/08/2019 00:34:08</publishTime>
+    </File>
+    <File Include="TemplateFolders/plugins/goodlayers-core/plugins/combine/skin-ilightbox/dark-skin/play-icon-ie.png">
+      <publishTime>01/08/2019 00:34:08</publishTime>
+    </File>
+    <File Include="TemplateFolders/plugins/goodlayers-core/plugins/combine/skin-ilightbox/dark-skin/preloader.gif">
+      <publishTime>01/08/2019 00:34:08</publishTime>
+    </File>
+    <File Include="TemplateFolders/plugins/goodlayers-core/plugins/combine/skin-ilightbox/dark-skin/thumb-overlay-play.png">
+      <publishTime>01/08/2019 00:34:08</publishTime>
+    </File>
+    <File Include="TemplateFolders/plugins/goodlayers-core/plugins/combine/skin-ilightbox/dark-skin/x-mark-icon-64.png">
+      <publishTime>01/08/2019 00:34:08</publishTime>
+    </File>
+    <File Include="TemplateFolders/plugins/goodlayers-core/plugins/combine/skin-ilightbox/dark-skin/x-mark-icon-ie.png">
+      <publishTime>01/08/2019 00:34:08</publishTime>
+    </File>
+    <File Include="TemplateFolders/plugins/goodlayers-core/plugins/combine/skin-ilightbox/social_icons/delicious_16.png">
+      <publishTime>01/08/2019 00:34:08</publishTime>
+    </File>
+    <File Include="TemplateFolders/plugins/goodlayers-core/plugins/combine/skin-ilightbox/social_icons/digg_16.png">
+      <publishTime>01/08/2019 00:34:08</publishTime>
+    </File>
+    <File Include="TemplateFolders/plugins/goodlayers-core/plugins/combine/skin-ilightbox/social_icons/facebook_16.png">
+      <publishTime>01/08/2019 00:34:08</publishTime>
+    </File>
+    <File Include="TemplateFolders/plugins/goodlayers-core/plugins/combine/skin-ilightbox/social_icons/google_plus_16.png">
+      <publishTime>01/08/2019 00:34:08</publishTime>
+    </File>
+    <File Include="TemplateFolders/plugins/goodlayers-core/plugins/combine/skin-ilightbox/social_icons/reddit_16.png">
+      <publishTime>01/08/2019 00:34:08</publishTime>
+    </File>
+    <File Include="TemplateFolders/plugins/goodlayers-core/plugins/combine/skin-ilightbox/social_icons/twitter_16.png">
+      <publishTime>01/08/2019 00:34:08</publishTime>
+    </File>
+    <File Include="TemplateFolders/plugins/goodlayers-core/plugins/combine/style.css">
+      <publishTime>01/08/2019 00:34:08</publishTime>
+    </File>
+    <File Include="TemplateFolders/plugins/google-map-plugin/assets/js/frontend.js">
+      <publishTime>01/08/2019 00:34:08</publishTime>
+    </File>
+    <File Include="TemplateFolders/plugins/google-map-plugin/assets/js/mapsd41d.js">
+      <publishTime>01/08/2019 00:34:08</publishTime>
+    </File>
+    <File Include="TemplateFolders/plugins/quform/js/plugins.js">
+      <publishTime>01/08/2019 00:34:08</publishTime>
+    </File>
+    <File Include="TemplateFolders/plugins/quform/js/scripts.js">
+      <publishTime>01/08/2019 00:34:08</publishTime>
+    </File>
+    <File Include="TemplateFolders/plugins/revslider/public/assets/assets/coloredbg.png">
+      <publishTime>01/08/2019 00:34:08</publishTime>
+    </File>
+    <File Include="TemplateFolders/plugins/revslider/public/assets/assets/gridtile.png">
+      <publishTime>01/08/2019 00:34:08</publishTime>
+    </File>
+    <File Include="TemplateFolders/plugins/revslider/public/assets/assets/gridtile_3x3.png">
+      <publishTime>01/08/2019 00:34:09</publishTime>
+    </File>
+    <File Include="TemplateFolders/plugins/revslider/public/assets/assets/gridtile_3x3_white.png">
+      <publishTime>01/08/2019 00:34:09</publishTime>
+    </File>
+    <File Include="TemplateFolders/plugins/revslider/public/assets/assets/gridtile_white.png">
+      <publishTime>01/08/2019 00:34:09</publishTime>
+    </File>
+    <File Include="TemplateFolders/plugins/revslider/public/assets/assets/loader.gif">
+      <publishTime>01/08/2019 00:34:09</publishTime>
+    </File>
+    <File Include="TemplateFolders/plugins/revslider/public/assets/css/closedhand.html">
+      <publishTime>01/08/2019 00:34:09</publishTime>
+    </File>
+    <File Include="TemplateFolders/plugins/revslider/public/assets/css/openhand.html">
+      <publishTime>01/08/2019 00:34:09</publishTime>
+    </File>
+    <File Include="TemplateFolders/plugins/revslider/public/assets/css/settings.css">
+      <publishTime>01/08/2019 00:34:09</publishTime>
+    </File>
+    <File Include="TemplateFolders/plugins/revslider/public/assets/fonts/revicons/revicons.eot">
+      <publishTime>01/08/2019 00:34:09</publishTime>
+    </File>
+    <File Include="TemplateFolders/plugins/revslider/public/assets/fonts/revicons/revicons.svg">
+      <publishTime>01/08/2019 00:34:09</publishTime>
+    </File>
+    <File Include="TemplateFolders/plugins/revslider/public/assets/fonts/revicons/revicons.ttf">
+      <publishTime>01/08/2019 00:34:09</publishTime>
+    </File>
+    <File Include="TemplateFolders/plugins/revslider/public/assets/fonts/revicons/revicons.woff">
+      <publishTime>01/08/2019 00:34:09</publishTime>
+    </File>
+    <File Include="TemplateFolders/plugins/revslider/public/assets/js/extensions/revolution.extension.actions.min.js">
+      <publishTime>01/08/2019 00:34:09</publishTime>
+    </File>
+    <File Include="TemplateFolders/plugins/revslider/public/assets/js/extensions/revolution.extension.kenburn.min.js">
+      <publishTime>01/08/2019 00:34:09</publishTime>
+    </File>
+    <File Include="TemplateFolders/plugins/revslider/public/assets/js/extensions/revolution.extension.layeranimation.min.js">
+      <publishTime>01/08/2019 00:34:09</publishTime>
+    </File>
+    <File Include="TemplateFolders/plugins/revslider/public/assets/js/extensions/revolution.extension.navigation.min.js">
+      <publishTime>01/08/2019 00:34:09</publishTime>
+    </File>
+    <File Include="TemplateFolders/plugins/revslider/public/assets/js/extensions/revolution.extension.parallax.min.js">
+      <publishTime>01/08/2019 00:34:09</publishTime>
+    </File>
+    <File Include="TemplateFolders/plugins/revslider/public/assets/js/extensions/revolution.extension.slideanims.min.js">
+      <publishTime>01/08/2019 00:34:09</publishTime>
+    </File>
+    <File Include="TemplateFolders/plugins/revslider/public/assets/js/extensions/revolution.extension.video.min.js">
+      <publishTime>01/08/2019 00:34:10</publishTime>
+    </File>
+    <File Include="TemplateFolders/plugins/revslider/public/assets/js/jquery.themepunch.revolution.min.js">
+      <publishTime>01/08/2019 00:34:10</publishTime>
+    </File>
+    <File Include="TemplateFolders/plugins/revslider/public/assets/js/jquery.themepunch.tools.min.js">
+      <publishTime>01/08/2019 00:34:10</publishTime>
+    </File>
+    <File Include="TemplateFolders/plugins/tourmaster/images/button-loading.svg">
+      <publishTime>01/08/2019 00:34:10</publishTime>
+    </File>
+    <File Include="TemplateFolders/plugins/tourmaster/images/payment-step-gradient.png">
+      <publishTime>01/08/2019 00:34:10</publishTime>
+    </File>
+    <File Include="TemplateFolders/plugins/tourmaster/images/payment-step-separator.png">
+      <publishTime>01/08/2019 00:34:10</publishTime>
+    </File>
+    <File Include="TemplateFolders/plugins/tourmaster/images/ribbon-corner-shadow.png">
+      <publishTime>01/08/2019 00:34:10</publishTime>
+    </File>
+    <File Include="TemplateFolders/plugins/tourmaster/images/single-tour-gradient.png">
+      <publishTime>01/08/2019 00:34:10</publishTime>
+    </File>
+    <File Include="TemplateFolders/plugins/tourmaster/images/single-tour-top-gradient.png">
+      <publishTime>01/08/2019 00:34:10</publishTime>
+    </File>
+    <File Include="TemplateFolders/plugins/tourmaster/images/tour-category-item-gradient.png">
+      <publishTime>01/08/2019 00:34:10</publishTime>
+    </File>
+    <File Include="TemplateFolders/plugins/tourmaster/plugins/elegant-font/fonts/ElegantIcons.eot">
+      <publishTime>01/08/2019 00:34:10</publishTime>
+    </File>
+    <File Include="TemplateFolders/plugins/tourmaster/plugins/elegant-font/fonts/ElegantIcons.svg">
+      <publishTime>01/08/2019 00:34:10</publishTime>
+    </File>
+    <File Include="TemplateFolders/plugins/tourmaster/plugins/elegant-font/fonts/ElegantIcons.ttf">
+      <publishTime>01/08/2019 00:34:10</publishTime>
+    </File>
+    <File Include="TemplateFolders/plugins/tourmaster/plugins/elegant-font/fonts/ElegantIcons.woff">
+      <publishTime>01/08/2019 00:34:10</publishTime>
+    </File>
+    <File Include="TemplateFolders/plugins/tourmaster/plugins/elegant-font/fonts/ElegantIconsd41dd41d.eot">
+      <publishTime>01/08/2019 00:34:10</publishTime>
+    </File>
+    <File Include="TemplateFolders/plugins/tourmaster/plugins/elegant-font/style.css">
+      <publishTime>01/08/2019 00:34:10</publishTime>
+    </File>
+    <File Include="TemplateFolders/plugins/tourmaster/plugins/flaticon/Flaticon.eot">
+      <publishTime>01/08/2019 00:34:10</publishTime>
+    </File>
+    <File Include="TemplateFolders/plugins/tourmaster/plugins/flaticon/Flaticon.svg">
+      <publishTime>01/08/2019 00:34:10</publishTime>
+    </File>
+    <File Include="TemplateFolders/plugins/tourmaster/plugins/flaticon/Flaticon.ttf">
+      <publishTime>01/08/2019 00:34:10</publishTime>
+    </File>
+    <File Include="TemplateFolders/plugins/tourmaster/plugins/flaticon/Flaticon.woff">
+      <publishTime>01/08/2019 00:34:10</publishTime>
+    </File>
+    <File Include="TemplateFolders/plugins/tourmaster/plugins/flaticon/Flaticond41dd41d.eot">
+      <publishTime>01/08/2019 00:34:10</publishTime>
+    </File>
+    <File Include="TemplateFolders/plugins/tourmaster/tourmaster.css">
+      <publishTime>01/08/2019 00:34:10</publishTime>
+    </File>
+    <File Include="TemplateFolders/plugins/tourmaster/tourmaster.js">
+      <publishTime>01/08/2019 00:34:10</publishTime>
+    </File>
+    <File Include="TemplateFolders/upload/above-adventure-aerial-air.jpg">
+      <publishTime>01/08/2019 00:34:10</publishTime>
+    </File>
+    <File Include="TemplateFolders/upload/award-1.png">
+      <publishTime>01/08/2019 00:34:10</publishTime>
+    </File>
+    <File Include="TemplateFolders/upload/award-2.png">
+      <publishTime>01/08/2019 00:34:10</publishTime>
+    </File>
+    <File Include="TemplateFolders/upload/banner-1.png">
+      <publishTime>01/08/2019 00:34:10</publishTime>
+    </File>
+    <File Include="TemplateFolders/upload/banner-2.png">
+      <publishTime>01/08/2019 00:34:10</publishTime>
+    </File>
+    <File Include="TemplateFolders/upload/banner-3.png">
+      <publishTime>01/08/2019 00:34:10</publishTime>
+    </File>
+    <File Include="TemplateFolders/upload/banner-4.png">
+      <publishTime>01/08/2019 00:34:10</publishTime>
+    </File>
+    <File Include="TemplateFolders/upload/banner-5.png">
+      <publishTime>01/08/2019 00:34:10</publishTime>
+    </File>
+    <File Include="TemplateFolders/upload/c4ffc7a48d6a02dac31975c893fa7ddb.jpg">
+      <publishTime>01/08/2019 00:34:10</publishTime>
+    </File>
+    <File Include="TemplateFolders/upload/city-landmark-lights-night-700x430.jpg">
+      <publishTime>01/08/2019 00:34:10</publishTime>
+    </File>
+    <File Include="TemplateFolders/upload/city-sunny-people-street-700x660.jpg">
+      <publishTime>01/08/2019 00:34:11</publishTime>
+    </File>
+    <File Include="TemplateFolders/upload/city-sunny-people-street.jpg">
+      <publishTime>01/08/2019 00:34:11</publishTime>
+    </File>
+    <File Include="TemplateFolders/upload/column-bg.jpg">
+      <publishTime>01/08/2019 00:34:11</publishTime>
+    </File>
+    <File Include="TemplateFolders/upload/Fotolia_16069076_Subscription_Monthly_XXL-600x600.jpg">
+      <publishTime>01/08/2019 00:34:11</publishTime>
+    </File>
+    <File Include="TemplateFolders/upload/Fotolia_16069076_Subscription_Monthly_XXL-800x960.jpg">
+      <publishTime>01/08/2019 00:34:11</publishTime>
+    </File>
+    <File Include="TemplateFolders/upload/icon-1.png">
+      <publishTime>01/08/2019 00:34:11</publishTime>
+    </File>
+    <File Include="TemplateFolders/upload/icon-10.png">
+      <publishTime>01/08/2019 00:34:11</publishTime>
+    </File>
+    <File Include="TemplateFolders/upload/icon-11.png">
+      <publishTime>01/08/2019 00:34:11</publishTime>
+    </File>
+    <File Include="TemplateFolders/upload/icon-12.png">
+      <publishTime>01/08/2019 00:34:11</publishTime>
+    </File>
+    <File Include="TemplateFolders/upload/icon-13.png">
+      <publishTime>01/08/2019 00:34:11</publishTime>
+    </File>
+    <File Include="TemplateFolders/upload/icon-14.png">
+      <publishTime>01/08/2019 00:34:11</publishTime>
+    </File>
+    <File Include="TemplateFolders/upload/icon-15.png">
+      <publishTime>01/08/2019 00:34:11</publishTime>
+    </File>
+    <File Include="TemplateFolders/upload/icon-2.png">
+      <publishTime>01/08/2019 00:34:11</publishTime>
+    </File>
+    <File Include="TemplateFolders/upload/icon-3.png">
+      <publishTime>01/08/2019 00:34:11</publishTime>
+    </File>
+    <File Include="TemplateFolders/upload/icon-4.png">
+      <publishTime>01/08/2019 00:34:11</publishTime>
+    </File>
+    <File Include="TemplateFolders/upload/icon-5.png">
+      <publishTime>01/08/2019 00:34:11</publishTime>
+    </File>
+    <File Include="TemplateFolders/upload/icon-6.png">
+      <publishTime>01/08/2019 00:34:11</publishTime>
+    </File>
+    <File Include="TemplateFolders/upload/icon-7.png">
+      <publishTime>01/08/2019 00:34:11</publishTime>
+    </File>
+    <File Include="TemplateFolders/upload/italian-landscape-mountains-nature-1500x1000.jpg">
+      <publishTime>01/08/2019 00:34:11</publishTime>
+    </File>
+    <File Include="TemplateFolders/upload/italian-landscape-mountains-nature-150x150.jpg">
+      <publishTime>01/08/2019 00:34:11</publishTime>
+    </File>
+    <File Include="TemplateFolders/upload/italian-landscape-mountains-nature-600x800.jpg">
+      <publishTime>01/08/2019 00:34:11</publishTime>
+    </File>
+    <File Include="TemplateFolders/upload/italian-landscape-mountains-nature-700x450.jpg">
+      <publishTime>01/08/2019 00:34:11</publishTime>
+    </File>
+    <File Include="TemplateFolders/upload/italian-landscape-mountains-nature-700x500.jpg">
+      <publishTime>01/08/2019 00:34:11</publishTime>
+    </File>
+    <File Include="TemplateFolders/upload/italian-landscape-mountains-nature-700x660.jpg">
+      <publishTime>01/08/2019 00:34:11</publishTime>
+    </File>
+    <File Include="TemplateFolders/upload/italian-landscape-mountains-nature-900x500.jpg">
+      <publishTime>01/08/2019 00:34:11</publishTime>
+    </File>
+    <File Include="TemplateFolders/upload/italian-landscape-mountains-nature.jpg">
+      <publishTime>01/08/2019 00:34:11</publishTime>
+    </File>
+    <File Include="TemplateFolders/upload/personnel-1-150x150.jpg">
+      <publishTime>01/08/2019 00:34:12</publishTime>
+    </File>
+    <File Include="TemplateFolders/upload/personnel-1-550x500.jpg">
+      <publishTime>01/08/2019 00:34:12</publishTime>
+    </File>
+    <File Include="TemplateFolders/upload/personnel-2-150x150.jpg">
+      <publishTime>01/08/2019 00:34:12</publishTime>
+    </File>
+    <File Include="TemplateFolders/upload/personnel-2-550x500.jpg">
+      <publishTime>01/08/2019 00:34:12</publishTime>
+    </File>
+    <File Include="TemplateFolders/upload/personnel-3-150x150.jpg">
+      <publishTime>01/08/2019 00:34:12</publishTime>
+    </File>
+    <File Include="TemplateFolders/upload/personnel-3-550x500.jpg">
+      <publishTime>01/08/2019 00:34:12</publishTime>
+    </File>
+    <File Include="TemplateFolders/upload/personnel-4-150x150.jpg">
+      <publishTime>01/08/2019 00:34:12</publishTime>
+    </File>
+    <File Include="TemplateFolders/upload/personnel-4-550x500.jpg">
+      <publishTime>01/08/2019 00:34:12</publishTime>
+    </File>
+    <File Include="TemplateFolders/upload/personnel-5-150x150.jpg">
+      <publishTime>01/08/2019 00:34:12</publishTime>
+    </File>
+    <File Include="TemplateFolders/upload/personnel-5-550x500.jpg">
+      <publishTime>01/08/2019 00:34:12</publishTime>
+    </File>
+    <File Include="TemplateFolders/upload/personnel-6-150x150.jpg">
+      <publishTime>01/08/2019 00:34:12</publishTime>
+    </File>
+    <File Include="TemplateFolders/upload/personnel-6-550x500.jpg">
+      <publishTime>01/08/2019 00:34:12</publishTime>
+    </File>
+    <File Include="TemplateFolders/upload/pexels-photo-1100x490.jpg">
+      <publishTime>01/08/2019 00:34:12</publishTime>
+    </File>
+    <File Include="TemplateFolders/upload/pexels-photo-1280x580.jpg">
+      <publishTime>01/08/2019 00:34:12</publishTime>
+    </File>
+    <File Include="TemplateFolders/upload/pexels-photo-1500x1000.jpg">
+      <publishTime>01/08/2019 00:34:12</publishTime>
+    </File>
+    <File Include="TemplateFolders/upload/pexels-photo-164276-600x800.jpg">
+      <publishTime>01/08/2019 00:34:12</publishTime>
+    </File>
+    <File Include="TemplateFolders/upload/pexels-photo-164276-700x660.jpg">
+      <publishTime>01/08/2019 00:34:12</publishTime>
+    </File>
+    <File Include="TemplateFolders/upload/pexels-photo-172221-1024x683.jpg">
+      <publishTime>01/08/2019 00:34:12</publishTime>
+    </File>
+    <File Include="TemplateFolders/upload/pexels-photo-172221-700x430.jpg">
+      <publishTime>01/08/2019 00:34:12</publishTime>
+    </File>
+    <File Include="TemplateFolders/upload/pexels-photo-176400-600x800.jpg">
+      <publishTime>01/08/2019 00:34:12</publishTime>
+    </File>
+    <File Include="TemplateFolders/upload/pexels-photo-176400-700x430.jpg">
+      <publishTime>01/08/2019 00:34:12</publishTime>
+    </File>
+    <File Include="TemplateFolders/upload/pexels-photo-176400-700x660.jpg">
+      <publishTime>01/08/2019 00:34:12</publishTime>
+    </File>
+    <File Include="TemplateFolders/upload/pexels-photo-300x200.jpg">
+      <publishTime>01/08/2019 00:34:12</publishTime>
+    </File>
+    <File Include="TemplateFolders/upload/pexels-photo-47426.jpg">
+      <publishTime>01/08/2019 00:34:12</publishTime>
+    </File>
+    <File Include="TemplateFolders/upload/pexels-photo-67386-700x500.jpg">
+      <publishTime>01/08/2019 00:34:12</publishTime>
+    </File>
+    <File Include="TemplateFolders/upload/pexels-photo-67386-700x660.jpg">
+      <publishTime>01/08/2019 00:34:12</publishTime>
+    </File>
+    <File Include="TemplateFolders/upload/pexels-photo-67386.jpg">
+      <publishTime>01/08/2019 00:34:12</publishTime>
+    </File>
+    <File Include="TemplateFolders/upload/pexels-photo-700x430.jpg">
+      <publishTime>01/08/2019 00:34:12</publishTime>
+    </File>
+    <File Include="TemplateFolders/upload/pexels-photo-copy-2-1500x1000.jpg">
+      <publishTime>01/08/2019 00:34:13</publishTime>
+    </File>
+    <File Include="TemplateFolders/upload/pexels-photo-copy-2.jpg">
+      <publishTime>01/08/2019 00:34:13</publishTime>
+    </File>
+    <File Include="TemplateFolders/upload/pexels-photo.jpg">
+      <publishTime>01/08/2019 00:34:13</publishTime>
+    </File>
+    <File Include="TemplateFolders/upload/photo-1428931996691-a5108d4cdbf5-150x150.jpg">
+      <publishTime>01/08/2019 00:34:13</publishTime>
+    </File>
+    <File Include="TemplateFolders/upload/photo-1437651025703-2858c944e3eb-150x150.jpg">
+      <publishTime>01/08/2019 00:34:13</publishTime>
+    </File>
+    <File Include="TemplateFolders/upload/photo-1437651025703-2858c944e3eb-700x660.jpg">
+      <publishTime>01/08/2019 00:34:13</publishTime>
+    </File>
+    <File Include="TemplateFolders/upload/photo-1437651025703-2858c944e3eb.jpg">
+      <publishTime>01/08/2019 00:34:13</publishTime>
+    </File>
+    <File Include="TemplateFolders/upload/photo-1439853949127-fa647821eba0.jpg">
+      <publishTime>01/08/2019 00:34:13</publishTime>
+    </File>
+    <File Include="TemplateFolders/upload/photo-1441155472722-d17942a2b76a-150x150.jpg">
+      <publishTime>01/08/2019 00:34:13</publishTime>
+    </File>
+    <File Include="TemplateFolders/upload/photo-1441155472722-d17942a2b76a-600x800.jpg">
+      <publishTime>01/08/2019 00:34:13</publishTime>
+    </File>
+    <File Include="TemplateFolders/upload/photo-1441155472722-d17942a2b76a-700x450.jpg">
+      <publishTime>01/08/2019 00:34:13</publishTime>
+    </File>
+    <File Include="TemplateFolders/upload/photo-1441155472722-d17942a2b76a-700x500.jpg">
+      <publishTime>01/08/2019 00:34:13</publishTime>
+    </File>
+    <File Include="TemplateFolders/upload/photo-1441155472722-d17942a2b76a-700x660.jpg">
+      <publishTime>01/08/2019 00:34:13</publishTime>
+    </File>
+    <File Include="TemplateFolders/upload/photo-1441155472722-d17942a2b76a-900x500.jpg">
+      <publishTime>01/08/2019 00:34:13</publishTime>
+    </File>
+    <File Include="TemplateFolders/upload/photo-1441155472722-d17942a2b76a.jpg">
+      <publishTime>01/08/2019 00:34:13</publishTime>
+    </File>
+    <File Include="TemplateFolders/upload/photo-1441716844725-09cedc13a4e7-150x150.jpg">
+      <publishTime>01/08/2019 00:34:13</publishTime>
+    </File>
+    <File Include="TemplateFolders/upload/photo-1441716844725-09cedc13a4e7-700x450.jpg">
+      <publishTime>01/08/2019 00:34:13</publishTime>
+    </File>
+    <File Include="TemplateFolders/upload/photo-1441716844725-09cedc13a4e7-700x500.jpg">
+      <publishTime>01/08/2019 00:34:13</publishTime>
+    </File>
+    <File Include="TemplateFolders/upload/photo-1441716844725-09cedc13a4e7-700x660.jpg">
+      <publishTime>01/08/2019 00:34:13</publishTime>
+    </File>
+    <File Include="TemplateFolders/upload/photo-1441716844725-09cedc13a4e7-900x500.jpg">
+      <publishTime>01/08/2019 00:34:13</publishTime>
+    </File>
+    <File Include="TemplateFolders/upload/photo-1441716844725-09cedc13a4e7.jpg">
+      <publishTime>01/08/2019 00:34:13</publishTime>
+    </File>
+    <File Include="TemplateFolders/upload/photo-1442589031151-61d5645469d7-1550x700.jpg">
+      <publishTime>01/08/2019 00:34:13</publishTime>
+    </File>
+    <File Include="TemplateFolders/upload/photo-1442589031151-61d5645469d7-700x450.jpg">
+      <publishTime>01/08/2019 00:34:13</publishTime>
+    </File>
+    <File Include="TemplateFolders/upload/photo-1442589031151-61d5645469d7.jpg">
+      <publishTime>01/08/2019 00:34:13</publishTime>
+    </File>
+    <File Include="TemplateFolders/upload/photo-1443890484047-5eaa67d1d630-700x450.jpg">
+      <publishTime>01/08/2019 00:34:13</publishTime>
+    </File>
+    <File Include="TemplateFolders/upload/photo-1443890484047-5eaa67d1d630-700x500.jpg">
+      <publishTime>01/08/2019 00:34:13</publishTime>
+    </File>
+    <File Include="TemplateFolders/upload/photo-1443890484047-5eaa67d1d630.jpg">
+      <publishTime>01/08/2019 00:34:14</publishTime>
+    </File>
+    <File Include="TemplateFolders/upload/photo-1443890923422-7819ed4101c0-150x150.jpg">
+      <publishTime>01/08/2019 00:34:14</publishTime>
+    </File>
+    <File Include="TemplateFolders/upload/photo-1443890923422-7819ed4101c0-1550x700.jpg">
+      <publishTime>01/08/2019 00:34:14</publishTime>
+    </File>
+    <File Include="TemplateFolders/upload/photo-1443890923422-7819ed4101c0-700x450.jpg">
+      <publishTime>01/08/2019 00:34:14</publishTime>
+    </File>
+    <File Include="TemplateFolders/upload/photo-1443890923422-7819ed4101c0-700x500.jpg">
+      <publishTime>01/08/2019 00:34:14</publishTime>
+    </File>
+    <File Include="TemplateFolders/upload/photo-1443890923422-7819ed4101c0-700x660.jpg">
+      <publishTime>01/08/2019 00:34:14</publishTime>
+    </File>
+    <File Include="TemplateFolders/upload/photo-1443890923422-7819ed4101c0-900x500.jpg">
+      <publishTime>01/08/2019 00:34:14</publishTime>
+    </File>
+    <File Include="TemplateFolders/upload/photo-1443890923422-7819ed4101c0.jpg">
+      <publishTime>01/08/2019 00:34:14</publishTime>
+    </File>
+    <File Include="TemplateFolders/upload/photo-1447876394678-42a7efa1b6db-700x660.jpg">
+      <publishTime>01/08/2019 00:34:14</publishTime>
+    </File>
+    <File Include="TemplateFolders/upload/photo-1447876394678-42a7efa1b6db.jpg">
+      <publishTime>01/08/2019 00:34:14</publishTime>
+    </File>
+    <File Include="TemplateFolders/upload/photo-1448518184296-a22facb4446f-700x450.jpg">
+      <publishTime>01/08/2019 00:34:14</publishTime>
+    </File>
+    <File Include="TemplateFolders/upload/photo-1448518184296-a22facb4446f-700x660.jpg">
+      <publishTime>01/08/2019 00:34:14</publishTime>
+    </File>
+    <File Include="TemplateFolders/upload/photo-1448518184296-a22facb4446f.jpg">
+      <publishTime>01/08/2019 00:34:14</publishTime>
+    </File>
+    <File Include="TemplateFolders/upload/photo-1451337516015-6b6e9a44a8a3-1500x1000.jpg">
+      <publishTime>01/08/2019 00:34:14</publishTime>
+    </File>
+    <File Include="TemplateFolders/upload/photo-1451337516015-6b6e9a44a8a3-700x660.jpg">
+      <publishTime>01/08/2019 00:34:14</publishTime>
+    </File>
+    <File Include="TemplateFolders/upload/photo-1451337516015-6b6e9a44a8a3.jpg">
+      <publishTime>01/08/2019 00:34:14</publishTime>
+    </File>
+    <File Include="TemplateFolders/upload/photo-1459255418679-d6424da9ee33-1100x490.jpg">
+      <publishTime>01/08/2019 00:34:14</publishTime>
+    </File>
+    <File Include="TemplateFolders/upload/photo-1459255418679-d6424da9ee33-1280x580.jpg">
+      <publishTime>01/08/2019 00:34:14</publishTime>
+    </File>
+    <File Include="TemplateFolders/upload/photo-1459255418679-d6424da9ee33-1500x1000.jpg">
+      <publishTime>01/08/2019 00:34:14</publishTime>
+    </File>
+    <File Include="TemplateFolders/upload/photo-1459255418679-d6424da9ee33-150x150.jpg">
+      <publishTime>01/08/2019 00:34:14</publishTime>
+    </File>
+    <File Include="TemplateFolders/upload/photo-1459255418679-d6424da9ee33-1550x700.jpg">
+      <publishTime>01/08/2019 00:34:14</publishTime>
+    </File>
+    <File Include="TemplateFolders/upload/photo-1459255418679-d6424da9ee33-600x700.jpg">
+      <publishTime>01/08/2019 00:34:14</publishTime>
+    </File>
+    <File Include="TemplateFolders/upload/photo-1459255418679-d6424da9ee33-600x800.jpg">
+      <publishTime>01/08/2019 00:34:14</publishTime>
+    </File>
+    <File Include="TemplateFolders/upload/photo-1459255418679-d6424da9ee33-700x430.jpg">
+      <publishTime>01/08/2019 00:34:14</publishTime>
+    </File>
+    <File Include="TemplateFolders/upload/photo-1459255418679-d6424da9ee33-700x450.jpg">
+      <publishTime>01/08/2019 00:34:15</publishTime>
+    </File>
+    <File Include="TemplateFolders/upload/photo-1459255418679-d6424da9ee33-700x500.jpg">
+      <publishTime>01/08/2019 00:34:15</publishTime>
+    </File>
+    <File Include="TemplateFolders/upload/photo-1459255418679-d6424da9ee33-700x660.jpg">
+      <publishTime>01/08/2019 00:34:15</publishTime>
+    </File>
+    <File Include="TemplateFolders/upload/photo-1459255418679-d6424da9ee33.jpg">
+      <publishTime>01/08/2019 00:34:15</publishTime>
+    </File>
+    <File Include="TemplateFolders/upload/photodune-4791527-golden-gate-bridge-m-700x430.jpg">
+      <publishTime>01/08/2019 00:34:15</publishTime>
+    </File>
+    <File Include="TemplateFolders/upload/photodune-4791527-golden-gate-bridge-m.jpg">
+      <publishTime>01/08/2019 00:34:15</publishTime>
+    </File>
+    <File Include="TemplateFolders/upload/photodune-488847-venice-m-600x600.jpg">
+      <publishTime>01/08/2019 00:34:15</publishTime>
+    </File>
+    <File Include="TemplateFolders/upload/photodune-488847-venice-m-800x960.jpg">
+      <publishTime>01/08/2019 00:34:15</publishTime>
+    </File>
+    <File Include="TemplateFolders/upload/rio-de-janeiro-olympics-2016-niteroi-brazil-161212-600x800.jpg">
+      <publishTime>01/08/2019 00:34:15</publishTime>
+    </File>
+    <File Include="TemplateFolders/upload/rio-de-janeiro-olympics-2016-niteroi-brazil-161212-700x660.jpg">
+      <publishTime>01/08/2019 00:34:15</publishTime>
+    </File>
+    <File Include="TemplateFolders/upload/search-bg-2.jpg">
+      <publishTime>01/08/2019 00:34:15</publishTime>
+    </File>
+    <File Include="TemplateFolders/upload/search-bg-3.jpg">
+      <publishTime>01/08/2019 00:34:15</publishTime>
+    </File>
+    <File Include="TemplateFolders/upload/search-bg-top.jpg">
+      <publishTime>01/08/2019 00:34:15</publishTime>
+    </File>
+    <File Include="TemplateFolders/upload/search-bg.jpg">
+      <publishTime>01/08/2019 00:34:15</publishTime>
+    </File>
+    <File Include="TemplateFolders/upload/section-bg-1.jpg">
+      <publishTime>01/08/2019 00:34:15</publishTime>
+    </File>
+    <File Include="TemplateFolders/upload/section-bg-2.jpg">
+      <publishTime>01/08/2019 00:34:15</publishTime>
+    </File>
+    <File Include="TemplateFolders/upload/section-bg-3.jpg">
+      <publishTime>01/08/2019 00:34:15</publishTime>
+    </File>
+    <File Include="TemplateFolders/upload/section-bg-4.jpg">
+      <publishTime>01/08/2019 00:34:15</publishTime>
+    </File>
+    <File Include="TemplateFolders/upload/shutterstock_117062077-1280x580.jpg">
+      <publishTime>01/08/2019 00:34:15</publishTime>
+    </File>
+    <File Include="TemplateFolders/upload/shutterstock_117062077-700x430.jpg">
+      <publishTime>01/08/2019 00:34:15</publishTime>
+    </File>
+    <File Include="TemplateFolders/upload/shutterstock_117062077.jpg">
+      <publishTime>01/08/2019 00:34:15</publishTime>
+    </File>
+    <File Include="TemplateFolders/upload/shutterstock_120562819-1024x683.jpg">
+      <publishTime>01/08/2019 00:34:15</publishTime>
+    </File>
+    <File Include="TemplateFolders/upload/shutterstock_120562819-1280x580.jpg">
+      <publishTime>01/08/2019 00:34:15</publishTime>
+    </File>
+    <File Include="TemplateFolders/upload/shutterstock_120562819-1500x1000.jpg">
+      <publishTime>01/08/2019 00:34:16</publishTime>
+    </File>
+    <File Include="TemplateFolders/upload/shutterstock_120562819-150x150.jpg">
+      <publishTime>01/08/2019 00:34:16</publishTime>
+    </File>
+    <File Include="TemplateFolders/upload/shutterstock_120562819-600x600.jpg">
+      <publishTime>01/08/2019 00:34:16</publishTime>
+    </File>
+    <File Include="TemplateFolders/upload/shutterstock_120562819-600x700.jpg">
+      <publishTime>01/08/2019 00:34:16</publishTime>
+    </File>
+    <File Include="TemplateFolders/upload/shutterstock_120562819-600x800.jpg">
+      <publishTime>01/08/2019 00:34:16</publishTime>
+    </File>
+    <File Include="TemplateFolders/upload/shutterstock_120562819-700x430.jpg">
+      <publishTime>01/08/2019 00:34:16</publishTime>
+    </File>
+    <File Include="TemplateFolders/upload/shutterstock_120562819-700x450.jpg">
+      <publishTime>01/08/2019 00:34:16</publishTime>
+    </File>
+    <File Include="TemplateFolders/upload/shutterstock_120562819-700x500.jpg">
+      <publishTime>01/08/2019 00:34:16</publishTime>
+    </File>
+    <File Include="TemplateFolders/upload/shutterstock_120562819-700x660.jpg">
+      <publishTime>01/08/2019 00:34:16</publishTime>
+    </File>
+    <File Include="TemplateFolders/upload/shutterstock_120562819-800x960.jpg">
+      <publishTime>01/08/2019 00:34:16</publishTime>
+    </File>
+    <File Include="TemplateFolders/upload/shutterstock_120562819.jpg">
+      <publishTime>01/08/2019 00:34:16</publishTime>
+    </File>
+    <File Include="TemplateFolders/upload/shutterstock_124333858-600x600.jpg">
+      <publishTime>01/08/2019 00:34:16</publishTime>
+    </File>
+    <File Include="TemplateFolders/upload/shutterstock_124333858-800x960.jpg">
+      <publishTime>01/08/2019 00:34:16</publishTime>
+    </File>
+    <File Include="TemplateFolders/upload/shutterstock_132927353.jpg">
+      <publishTime>01/08/2019 00:34:16</publishTime>
+    </File>
+    <File Include="TemplateFolders/upload/shutterstock_134373716-600x800.jpg">
+      <publishTime>01/08/2019 00:34:16</publishTime>
+    </File>
+    <File Include="TemplateFolders/upload/shutterstock_134373716-700x660.jpg">
+      <publishTime>01/08/2019 00:34:16</publishTime>
+    </File>
+    <File Include="TemplateFolders/upload/shutterstock_136984760-1024x674.jpg">
+      <publishTime>01/08/2019 00:34:16</publishTime>
+    </File>
+    <File Include="TemplateFolders/upload/shutterstock_136984760-1500x1000.jpg">
+      <publishTime>01/08/2019 00:34:16</publishTime>
+    </File>
+    <File Include="TemplateFolders/upload/shutterstock_136984760-150x150.jpg">
+      <publishTime>01/08/2019 00:34:16</publishTime>
+    </File>
+    <File Include="TemplateFolders/upload/shutterstock_136984760-600x800.jpg">
+      <publishTime>01/08/2019 00:34:16</publishTime>
+    </File>
+    <File Include="TemplateFolders/upload/shutterstock_136984760-700x430.jpg">
+      <publishTime>01/08/2019 00:34:16</publishTime>
+    </File>
+    <File Include="TemplateFolders/upload/shutterstock_136984760-700x450.jpg">
+      <publishTime>01/08/2019 00:34:16</publishTime>
+    </File>
+    <File Include="TemplateFolders/upload/shutterstock_136984760-700x500.jpg">
+      <publishTime>01/08/2019 00:34:16</publishTime>
+    </File>
+    <File Include="TemplateFolders/upload/shutterstock_136984760-700x660.jpg">
+      <publishTime>01/08/2019 00:34:17</publishTime>
+    </File>
+    <File Include="TemplateFolders/upload/shutterstock_136984760-900x500.jpg">
+      <publishTime>01/08/2019 00:34:17</publishTime>
+    </File>
+    <File Include="TemplateFolders/upload/shutterstock_136984760.jpg">
+      <publishTime>01/08/2019 00:34:17</publishTime>
+    </File>
+    <File Include="TemplateFolders/upload/shutterstock_139999093-600x800.jpg">
+      <publishTime>01/08/2019 00:34:17</publishTime>
+    </File>
+    <File Include="TemplateFolders/upload/shutterstock_139999093-700x660.jpg">
+      <publishTime>01/08/2019 00:34:17</publishTime>
+    </File>
+    <File Include="TemplateFolders/upload/shutterstock_139999093.jpg">
+      <publishTime>01/08/2019 00:34:17</publishTime>
+    </File>
+    <File Include="TemplateFolders/upload/shutterstock_147744218-1024x683.jpg">
+      <publishTime>01/08/2019 00:34:17</publishTime>
+    </File>
+    <File Include="TemplateFolders/upload/shutterstock_147744218-1280x580.jpg">
+      <publishTime>01/08/2019 00:34:17</publishTime>
+    </File>
+    <File Include="TemplateFolders/upload/shutterstock_147744218-1500x1000.jpg">
+      <publishTime>01/08/2019 00:34:17</publishTime>
+    </File>
+    <File Include="TemplateFolders/upload/shutterstock_147744218-600x600.jpg">
+      <publishTime>01/08/2019 00:34:17</publishTime>
+    </File>
+    <File Include="TemplateFolders/upload/shutterstock_147744218-600x700.jpg">
+      <publishTime>01/08/2019 00:34:17</publishTime>
+    </File>
+    <File Include="TemplateFolders/upload/shutterstock_147744218-600x800.jpg">
+      <publishTime>01/08/2019 00:34:17</publishTime>
+    </File>
+    <File Include="TemplateFolders/upload/shutterstock_147744218-700x430.jpg">
+      <publishTime>01/08/2019 00:34:17</publishTime>
+    </File>
+    <File Include="TemplateFolders/upload/shutterstock_147744218-700x450.jpg">
+      <publishTime>01/08/2019 00:34:17</publishTime>
+    </File>
+    <File Include="TemplateFolders/upload/shutterstock_147744218-700x500.jpg">
+      <publishTime>01/08/2019 00:34:17</publishTime>
+    </File>
+    <File Include="TemplateFolders/upload/shutterstock_147744218-700x660.jpg">
+      <publishTime>01/08/2019 00:34:17</publishTime>
+    </File>
+    <File Include="TemplateFolders/upload/shutterstock_147744218-800x960.jpg">
+      <publishTime>01/08/2019 00:34:17</publishTime>
+    </File>
+    <File Include="TemplateFolders/upload/shutterstock_147744218.jpg">
+      <publishTime>01/08/2019 00:34:17</publishTime>
+    </File>
+    <File Include="TemplateFolders/upload/shutterstock_151616084-1024x683.jpg">
+      <publishTime>01/08/2019 00:34:17</publishTime>
+    </File>
+    <File Include="TemplateFolders/upload/shutterstock_151616084-1100x490.jpg">
+      <publishTime>01/08/2019 00:34:18</publishTime>
+    </File>
+    <File Include="TemplateFolders/upload/shutterstock_151616084-1280x580.jpg">
+      <publishTime>01/08/2019 00:34:18</publishTime>
+    </File>
+    <File Include="TemplateFolders/upload/shutterstock_151616084-1500x1000.jpg">
+      <publishTime>01/08/2019 00:34:18</publishTime>
+    </File>
+    <File Include="TemplateFolders/upload/shutterstock_151616084-150x150.jpg">
+      <publishTime>01/08/2019 00:34:18</publishTime>
+    </File>
+    <File Include="TemplateFolders/upload/shutterstock_151616084-300x200.jpg">
+      <publishTime>01/08/2019 00:34:18</publishTime>
+    </File>
+    <File Include="TemplateFolders/upload/shutterstock_151616084-600x700.jpg">
+      <publishTime>01/08/2019 00:34:18</publishTime>
+    </File>
+    <File Include="TemplateFolders/upload/shutterstock_151616084-600x800.jpg">
+      <publishTime>01/08/2019 00:34:18</publishTime>
+    </File>
+    <File Include="TemplateFolders/upload/shutterstock_151616084-700x430.jpg">
+      <publishTime>01/08/2019 00:34:18</publishTime>
+    </File>
+    <File Include="TemplateFolders/upload/shutterstock_151616084-700x450.jpg">
+      <publishTime>01/08/2019 00:34:18</publishTime>
+    </File>
+    <File Include="TemplateFolders/upload/shutterstock_151616084-700x500.jpg">
+      <publishTime>01/08/2019 00:34:18</publishTime>
+    </File>
+    <File Include="TemplateFolders/upload/shutterstock_151616084-700x660.jpg">
+      <publishTime>01/08/2019 00:34:18</publishTime>
+    </File>
+    <File Include="TemplateFolders/upload/shutterstock_151616084.jpg">
+      <publishTime>01/08/2019 00:34:18</publishTime>
+    </File>
+    <File Include="TemplateFolders/upload/shutterstock_154497503-600x800.jpg">
+      <publishTime>01/08/2019 00:34:18</publishTime>
+    </File>
+    <File Include="TemplateFolders/upload/shutterstock_154497503-700x430.jpg">
+      <publishTime>01/08/2019 00:34:18</publishTime>
+    </File>
+    <File Include="TemplateFolders/upload/shutterstock_154497503-700x500.jpg">
+      <publishTime>01/08/2019 00:34:19</publishTime>
+    </File>
+    <File Include="TemplateFolders/upload/shutterstock_154497503-700x660.jpg">
+      <publishTime>01/08/2019 00:34:19</publishTime>
+    </File>
+    <File Include="TemplateFolders/upload/shutterstock_154497503.jpg">
+      <publishTime>01/08/2019 00:34:19</publishTime>
+    </File>
+    <File Include="TemplateFolders/upload/shutterstock_166193831-1100x490.jpg">
+      <publishTime>01/08/2019 00:34:19</publishTime>
+    </File>
+    <File Include="TemplateFolders/upload/shutterstock_166193831-1280x580.jpg">
+      <publishTime>01/08/2019 00:34:19</publishTime>
+    </File>
+    <File Include="TemplateFolders/upload/shutterstock_166193831-700x430.jpg">
+      <publishTime>01/08/2019 00:34:19</publishTime>
+    </File>
+    <File Include="TemplateFolders/upload/shutterstock_166193831.jpg">
+      <publishTime>01/08/2019 00:34:19</publishTime>
+    </File>
+    <File Include="TemplateFolders/upload/shutterstock_178807262-1024x683.jpg">
+      <publishTime>01/08/2019 00:34:19</publishTime>
+    </File>
+    <File Include="TemplateFolders/upload/shutterstock_178807262-1280x580.jpg">
+      <publishTime>01/08/2019 00:34:19</publishTime>
+    </File>
+    <File Include="TemplateFolders/upload/shutterstock_178807262-1500x1000.jpg">
+      <publishTime>01/08/2019 00:34:19</publishTime>
+    </File>
+    <File Include="TemplateFolders/upload/shutterstock_178807262-150x150.jpg">
+      <publishTime>01/08/2019 00:34:19</publishTime>
+    </File>
+    <File Include="TemplateFolders/upload/shutterstock_178807262-600x700.jpg">
+      <publishTime>01/08/2019 00:34:19</publishTime>
+    </File>
+    <File Include="TemplateFolders/upload/shutterstock_178807262-600x800.jpg">
+      <publishTime>01/08/2019 00:34:19</publishTime>
+    </File>
+    <File Include="TemplateFolders/upload/shutterstock_178807262-700x430.jpg">
+      <publishTime>01/08/2019 00:34:19</publishTime>
+    </File>
+    <File Include="TemplateFolders/upload/shutterstock_178807262-700x450.jpg">
+      <publishTime>01/08/2019 00:34:19</publishTime>
+    </File>
+    <File Include="TemplateFolders/upload/shutterstock_178807262-700x500.jpg">
+      <publishTime>01/08/2019 00:34:19</publishTime>
+    </File>
+    <File Include="TemplateFolders/upload/shutterstock_178807262-700x660.jpg">
+      <publishTime>01/08/2019 00:34:19</publishTime>
+    </File>
+    <File Include="TemplateFolders/upload/shutterstock_178807262.jpg">
+      <publishTime>01/08/2019 00:34:20</publishTime>
+    </File>
+    <File Include="TemplateFolders/upload/shutterstock_195507533-1100x490.jpg">
+      <publishTime>01/08/2019 00:34:20</publishTime>
+    </File>
+    <File Include="TemplateFolders/upload/shutterstock_195507533-1280x580.jpg">
+      <publishTime>01/08/2019 00:34:20</publishTime>
+    </File>
+    <File Include="TemplateFolders/upload/shutterstock_195507533-1500x1000.jpg">
+      <publishTime>01/08/2019 00:34:20</publishTime>
+    </File>
+    <File Include="TemplateFolders/upload/shutterstock_195507533-150x150.jpg">
+      <publishTime>01/08/2019 00:34:20</publishTime>
+    </File>
+    <File Include="TemplateFolders/upload/shutterstock_195507533-300x200.jpg">
+      <publishTime>01/08/2019 00:34:20</publishTime>
+    </File>
+    <File Include="TemplateFolders/upload/shutterstock_195507533-700x430.jpg">
+      <publishTime>01/08/2019 00:34:20</publishTime>
+    </File>
+    <File Include="TemplateFolders/upload/shutterstock_195507533-700x660.jpg">
+      <publishTime>01/08/2019 00:34:20</publishTime>
+    </File>
+    <File Include="TemplateFolders/upload/shutterstock_195507533.jpg">
+      <publishTime>01/08/2019 00:34:20</publishTime>
+    </File>
+    <File Include="TemplateFolders/upload/shutterstock_198556997-700x660.jpg">
+      <publishTime>01/08/2019 00:34:20</publishTime>
+    </File>
+    <File Include="TemplateFolders/upload/shutterstock_198556997.jpg">
+      <publishTime>01/08/2019 00:34:20</publishTime>
+    </File>
+    <File Include="TemplateFolders/upload/shutterstock_210601591-1100x490.jpg">
+      <publishTime>01/08/2019 00:34:20</publishTime>
+    </File>
+    <File Include="TemplateFolders/upload/shutterstock_210601591-1280x580.jpg">
+      <publishTime>01/08/2019 00:34:20</publishTime>
+    </File>
+    <File Include="TemplateFolders/upload/shutterstock_210601591-150x150.jpg">
+      <publishTime>01/08/2019 00:34:20</publishTime>
+    </File>
+    <File Include="TemplateFolders/upload/shutterstock_210601591-700x430.jpg">
+      <publishTime>01/08/2019 00:34:20</publishTime>
+    </File>
+    <File Include="TemplateFolders/upload/shutterstock_210601591-700x450.jpg">
+      <publishTime>01/08/2019 00:34:20</publishTime>
+    </File>
+    <File Include="TemplateFolders/upload/shutterstock_210601591-700x500.jpg">
+      <publishTime>01/08/2019 00:34:20</publishTime>
+    </File>
+    <File Include="TemplateFolders/upload/shutterstock_210601591-700x660.jpg">
+      <publishTime>01/08/2019 00:34:20</publishTime>
+    </File>
+    <File Include="TemplateFolders/upload/shutterstock_210601591.jpg">
+      <publishTime>01/08/2019 00:34:20</publishTime>
+    </File>
+    <File Include="TemplateFolders/upload/shutterstock_220323652-150x150.jpg">
+      <publishTime>01/08/2019 00:34:20</publishTime>
+    </File>
+    <File Include="TemplateFolders/upload/shutterstock_220323652-700x450.jpg">
+      <publishTime>01/08/2019 00:34:21</publishTime>
+    </File>
+    <File Include="TemplateFolders/upload/shutterstock_220323652-700x500.jpg">
+      <publishTime>01/08/2019 00:34:21</publishTime>
+    </File>
+    <File Include="TemplateFolders/upload/shutterstock_220323652-700x660.jpg">
+      <publishTime>01/08/2019 00:34:21</publishTime>
+    </File>
+    <File Include="TemplateFolders/upload/shutterstock_220323652-900x500.jpg">
+      <publishTime>01/08/2019 00:34:21</publishTime>
+    </File>
+    <File Include="TemplateFolders/upload/shutterstock_220323652.jpg">
+      <publishTime>01/08/2019 00:34:21</publishTime>
+    </File>
+    <File Include="TemplateFolders/upload/shutterstock_242387536-700x660.jpg">
+      <publishTime>01/08/2019 00:34:21</publishTime>
+    </File>
+    <File Include="TemplateFolders/upload/shutterstock_242387536.jpg">
+      <publishTime>01/08/2019 00:34:21</publishTime>
+    </File>
+    <File Include="TemplateFolders/upload/shutterstock_245507692-1024x683.jpg">
+      <publishTime>01/08/2019 00:34:21</publishTime>
+    </File>
+    <File Include="TemplateFolders/upload/shutterstock_245507692-1280x580.jpg">
+      <publishTime>01/08/2019 00:34:21</publishTime>
+    </File>
+    <File Include="TemplateFolders/upload/shutterstock_245507692-1500x1000.jpg">
+      <publishTime>01/08/2019 00:34:21</publishTime>
+    </File>
+    <File Include="TemplateFolders/upload/shutterstock_245507692-150x150.jpg">
+      <publishTime>01/08/2019 00:34:21</publishTime>
+    </File>
+    <File Include="TemplateFolders/upload/shutterstock_245507692-600x600.jpg">
+      <publishTime>01/08/2019 00:34:21</publishTime>
+    </File>
+    <File Include="TemplateFolders/upload/shutterstock_245507692-600x700.jpg">
+      <publishTime>01/08/2019 00:34:21</publishTime>
+    </File>
+    <File Include="TemplateFolders/upload/shutterstock_245507692-600x800.jpg">
+      <publishTime>01/08/2019 00:34:21</publishTime>
+    </File>
+    <File Include="TemplateFolders/upload/shutterstock_245507692-700x430.jpg">
+      <publishTime>01/08/2019 00:34:21</publishTime>
+    </File>
+    <File Include="TemplateFolders/upload/shutterstock_245507692-700x450.jpg">
+      <publishTime>01/08/2019 00:34:21</publishTime>
+    </File>
+    <File Include="TemplateFolders/upload/shutterstock_245507692-700x500.jpg">
+      <publishTime>01/08/2019 00:34:21</publishTime>
+    </File>
+    <File Include="TemplateFolders/upload/shutterstock_245507692-700x660.jpg">
+      <publishTime>01/08/2019 00:34:22</publishTime>
+    </File>
+    <File Include="TemplateFolders/upload/shutterstock_245507692-900x500.jpg">
+      <publishTime>01/08/2019 00:34:22</publishTime>
+    </File>
+    <File Include="TemplateFolders/upload/shutterstock_245507692.jpg">
+      <publishTime>01/08/2019 00:34:22</publishTime>
+    </File>
+    <File Include="TemplateFolders/upload/shutterstock_254090041-1024x683.jpg">
+      <publishTime>01/08/2019 00:34:22</publishTime>
+    </File>
+    <File Include="TemplateFolders/upload/shutterstock_254090041-1500x1000.jpg">
+      <publishTime>01/08/2019 00:34:22</publishTime>
+    </File>
+    <File Include="TemplateFolders/upload/shutterstock_254090041-150x150.jpg">
+      <publishTime>01/08/2019 00:34:22</publishTime>
+    </File>
+    <File Include="TemplateFolders/upload/shutterstock_254090041-600x600.jpg">
+      <publishTime>01/08/2019 00:34:22</publishTime>
+    </File>
+    <File Include="TemplateFolders/upload/shutterstock_254090041-600x800.jpg">
+      <publishTime>01/08/2019 00:34:22</publishTime>
+    </File>
+    <File Include="TemplateFolders/upload/shutterstock_254090041-700x430.jpg">
+      <publishTime>01/08/2019 00:34:22</publishTime>
+    </File>
+    <File Include="TemplateFolders/upload/shutterstock_254090041-700x450.jpg">
+      <publishTime>01/08/2019 00:34:22</publishTime>
+    </File>
+    <File Include="TemplateFolders/upload/shutterstock_254090041-700x500.jpg">
+      <publishTime>01/08/2019 00:34:22</publishTime>
+    </File>
+    <File Include="TemplateFolders/upload/shutterstock_254090041-700x660.jpg">
+      <publishTime>01/08/2019 00:34:22</publishTime>
+    </File>
+    <File Include="TemplateFolders/upload/shutterstock_254090041-900x500.jpg">
+      <publishTime>01/08/2019 00:34:22</publishTime>
+    </File>
+    <File Include="TemplateFolders/upload/shutterstock_254090041.jpg">
+      <publishTime>01/08/2019 00:34:22</publishTime>
+    </File>
+    <File Include="TemplateFolders/upload/shutterstock_255194035-600x600.jpg">
+      <publishTime>01/08/2019 00:34:22</publishTime>
+    </File>
+    <File Include="TemplateFolders/upload/shutterstock_255194035-800x960.jpg">
+      <publishTime>01/08/2019 00:34:22</publishTime>
+    </File>
+    <File Include="TemplateFolders/upload/shutterstock_255194035.jpg">
+      <publishTime>01/08/2019 00:34:22</publishTime>
+    </File>
+    <File Include="TemplateFolders/upload/shutterstock_61340065-600x800.jpg">
+      <publishTime>01/08/2019 00:34:22</publishTime>
+    </File>
+    <File Include="TemplateFolders/upload/shutterstock_61340065-700x660.jpg">
+      <publishTime>01/08/2019 00:34:23</publishTime>
+    </File>
+    <File Include="TemplateFolders/upload/shutterstock_74901229-1500x1000.jpg">
+      <publishTime>01/08/2019 00:34:23</publishTime>
+    </File>
+    <File Include="TemplateFolders/upload/shutterstock_74901229-300x200.jpg">
+      <publishTime>01/08/2019 00:34:23</publishTime>
+    </File>
+    <File Include="TemplateFolders/upload/shutterstock_74901229.jpg">
+      <publishTime>01/08/2019 00:34:23</publishTime>
+    </File>
+    <File Include="TemplateFolders/upload/shutterstock_94851763-1500x1000.jpg">
+      <publishTime>01/08/2019 00:34:23</publishTime>
+    </File>
+    <File Include="TemplateFolders/upload/shutterstock_94851763-300x199.jpg">
+      <publishTime>01/08/2019 00:34:23</publishTime>
+    </File>
+    <File Include="TemplateFolders/upload/shutterstock_94851763-700x430.jpg">
+      <publishTime>01/08/2019 00:34:23</publishTime>
+    </File>
+    <File Include="TemplateFolders/upload/shutterstock_94851763.jpg">
+      <publishTime>01/08/2019 00:34:23</publishTime>
+    </File>
+    <File Include="TemplateFolders/upload/slider-1.jpg">
+      <publishTime>01/08/2019 00:34:23</publishTime>
+    </File>
+    <File Include="TemplateFolders/upload/slider-2.jpg">
+      <publishTime>01/08/2019 00:34:23</publishTime>
+    </File>
+    <File Include="TemplateFolders/upload/slider-3.jpg">
+      <publishTime>01/08/2019 00:34:23</publishTime>
+    </File>
+    <File Include="TemplateFolders/upload/stunning-bg-2.jpg">
+      <publishTime>01/08/2019 00:34:23</publishTime>
+    </File>
+    <File Include="TemplateFolders/upload/stunning-bg.jpg">
+      <publishTime>01/08/2019 00:34:23</publishTime>
+    </File>
+    <File Include="TemplateFolders/upload/sunrise-phu-quoc-island-ocean-600x800.jpg">
+      <publishTime>01/08/2019 00:34:23</publishTime>
+    </File>
+    <File Include="TemplateFolders/upload/sunrise-phu-quoc-island-ocean-700x500.jpg">
+      <publishTime>01/08/2019 00:34:24</publishTime>
+    </File>
+    <File Include="TemplateFolders/upload/sunrise-phu-quoc-island-ocean.jpg">
+      <publishTime>01/08/2019 00:34:24</publishTime>
+    </File>
+    <File Include="TemplateFolders/upload/testimonial-bg.jpg">
+      <publishTime>01/08/2019 00:34:24</publishTime>
+    </File>
+    <File Include="TemplateFolders/upload/TNK87N7464-150x150.jpg">
+      <publishTime>01/08/2019 00:34:24</publishTime>
+    </File>
+    <File Include="TemplateFolders/upload/tour-bg-2.jpg">
+      <publishTime>01/08/2019 00:34:24</publishTime>
+    </File>
+    <File Include="TemplateFolders/upload/tour-bg-3.jpg">
+      <publishTime>01/08/2019 00:34:24</publishTime>
+    </File>
+    <File Include="TemplateFolders/upload/widget-bg.jpg">
+      <publishTime>01/08/2019 00:34:24</publishTime>
+    </File>
+    <File Include="Views/Home/About.cshtml">
+      <publishTime>01/08/2019 00:23:17</publishTime>
+    </File>
+    <File Include="Views/Home/Contact.cshtml">
+      <publishTime>01/08/2019 00:23:17</publishTime>
+    </File>
+    <File Include="Views/Home/Home.cshtml">
+      <publishTime>01/08/2019 00:40:08</publishTime>
+    </File>
+    <File Include="Views/Home/Index.cshtml">
+      <publishTime>01/08/2019 00:23:17</publishTime>
+    </File>
+    <File Include="Views/Shared/Error.cshtml">
+      <publishTime>01/08/2019 00:23:17</publishTime>
+    </File>
+    <File Include="Views/Shared/_Layout.cshtml">
+      <publishTime>01/08/2019 00:23:17</publishTime>
+    </File>
+    <File Include="Views/Shared/_MasterLayout.cshtml">
+      <publishTime>01/08/2019 01:35:49</publishTime>
+    </File>
+    <File Include="Views/Web.config">
+      <publishTime>01/08/2019 00:23:17</publishTime>
+    </File>
+    <File Include="Views/_ViewStart.cshtml">
+      <publishTime>01/08/2019 00:23:17</publishTime>
+    </File>
+    <File Include="Web.config">
+      <publishTime>01/10/2019 00:30:53</publishTime>
+    </File>
+  </ItemGroup>
+</Project>
